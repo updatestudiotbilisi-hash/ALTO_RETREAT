@@ -1,0 +1,3789 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="page.title">Alto Retreat — Семейный выезд в горы · 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/retreat@a79f046353fd2872719eba7840b7d8c442b6f360/background/background-small.webp" fetchpriority="high">
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '589162157439651');
+fbq('track', 'PageView');
+</script>
+<!-- End Meta Pixel Code -->
+<style>
+:root{
+  --bg:#221d1d;
+  --bg-soft:#342d2a;
+  --paper:#f5efe5;
+  --paper-strong:#fbf6ee;
+  --ink:#1d1717;
+  --ink-soft:#544c49;
+  --line:rgba(29,23,23,.12);
+  --pink:#f6b6cf;
+  --pink-strong:#f2a5c6;
+  --lime:#d5ef6a;
+  --peach:#f0d9c4;
+  --lav:#e7d7ff;
+  --white:rgba(255,255,255,.78);
+  --shadow:0 36px 120px rgba(15,10,10,.28);
+  --tf:'Unbounded',sans-serif;
+  --bf:'Manrope',sans-serif;
+  --w6:rgba(29,23,23,.52);
+  --sand:#c8a882;
+  --card-hover-shadow:0 20px 56px rgba(20,14,14,.12);
+  --card-transition:transform .28s cubic-bezier(.22,.68,0,1.2), box-shadow .28s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:108px}
+body{
+  background:linear-gradient(180deg, #f8f1e6 0%, #f4ecdf 100%);
+  color:var(--ink);
+  font-family:var(--bf);
+  font-size:16px;
+  line-height:1.6;
+  overflow-x:hidden;
+}
+a{color:inherit}
+#scene,
+#scov{
+  position:fixed;
+  inset:0;
+}
+#scene{
+  z-index:0;
+  background:
+    linear-gradient(rgba(36,27,25,.34),rgba(36,27,25,.58)),
+    url('https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/retreat@a79f046353fd2872719eba7840b7d8c442b6f360/background/background-small.webp') center/cover no-repeat;
+  filter:saturate(.72) blur(1px);
+  transform:scale(1.04);
+}
+#scov{
+  z-index:1;
+  background:
+    radial-gradient(circle at 20% 12%, rgba(255,213,196,.18), transparent 28%),
+    radial-gradient(circle at 80% 18%, rgba(233,174,203,.16), transparent 24%),
+    linear-gradient(180deg, rgba(31,24,24,.3), rgba(31,24,24,.72));
+}
+.wrap{
+  position:relative;
+  z-index:2;
+  width:100%;
+  min-height:100vh;
+  margin:0;
+  background:linear-gradient(180deg, rgba(251,246,238,.98), rgba(245,239,229,.98));
+  border:none;
+  border-radius:0;
+  overflow:hidden;
+  box-shadow:none;
+}
+.wrap::before{
+  content:'';
+  position:absolute;
+  inset:0 0 auto 0;
+  height:360px;
+  background:
+    radial-gradient(circle at 12% 20%, rgba(255,235,204,.95), transparent 26%),
+    radial-gradient(circle at 82% 16%, rgba(247,181,208,.55), transparent 22%);
+  pointer-events:none;
+}
+.hero .hgrid,
+.s>*,
+.light-section>*,
+footer>*,
+.clients-s>*{
+  width:100%;
+  max-width:none;
+  margin:0;
+}
+.liquid-glass,
+.liquid-glass-strong{
+  position:relative;
+  overflow:hidden;
+}
+.liquid-glass > *,
+.liquid-glass-strong > *{
+  position:relative;
+  z-index:1;
+}
+.liquid-glass{
+  background:rgba(255,255,255,.01);
+  background-blend-mode:luminosity;
+  backdrop-filter:blur(4px);
+  -webkit-backdrop-filter:blur(4px);
+  border:none;
+  box-shadow:inset 0 1px 1px rgba(255,255,255,.1);
+}
+.liquid-glass::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  padding:1.4px;
+  background:linear-gradient(180deg,
+    rgba(255,255,255,.45) 0%, rgba(255,255,255,.15) 20%,
+    rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%,
+    rgba(255,255,255,.15) 80%, rgba(255,255,255,.45) 100%);
+  -webkit-mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;
+  mask-composite:exclude;
+  pointer-events:none;
+}
+.liquid-glass-strong{
+  background:rgba(255,255,255,.01);
+  background-blend-mode:luminosity;
+  backdrop-filter:blur(50px);
+  -webkit-backdrop-filter:blur(50px);
+  border:none;
+  box-shadow:4px 4px 4px rgba(0,0,0,.05), inset 0 1px 1px rgba(255,255,255,.15);
+}
+.liquid-glass-strong::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  padding:1.4px;
+  background:linear-gradient(180deg,
+    rgba(255,255,255,.5) 0%, rgba(255,255,255,.2) 20%,
+    rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%,
+    rgba(255,255,255,.2) 80%, rgba(255,255,255,.5) 100%);
+  -webkit-mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;
+  mask-composite:exclude;
+  pointer-events:none;
+}
+nav{
+  position:fixed;
+  top:16px;
+  left:0;
+  right:0;
+  z-index:200;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  margin:0;
+  padding:0 32px;
+  color:#fff;
+  background:transparent;
+  border:none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  box-shadow:none;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-decoration:none;
+  min-width:0;
+}
+.logo-mark{
+  width:48px;
+  height:48px;
+  flex-shrink:0;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:999px;
+  background:rgba(251,246,238,.96);
+  color:var(--ink);
+  font-family:var(--tf);
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.12em;
+  box-shadow:0 14px 34px rgba(15,10,10,.18);
+}
+.logo-text{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+}
+.logo-main{
+  display:block;
+  font-family:var(--tf);
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.14em;
+  color:#fff;
+  text-shadow:0 4px 20px rgba(15,10,10,.22);
+}
+.logo-sub{
+  display:block;
+  margin-top:4px;
+  font-size:10px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.62);
+  text-shadow:0 4px 20px rgba(15,10,10,.18);
+}
+.nav-pill{
+  display:flex;
+  flex:1;
+  justify-content:center;
+}
+.nl{
+  display:flex;
+  align-items:center;
+  gap:2px;
+  list-style:none;
+  padding:6px 6px 6px 10px;
+  border-radius:999px;
+}
+.nl li{display:flex;align-items:center}
+.nl a{
+  color:rgba(255,255,255,.88);
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:10px 13px;
+  border-radius:999px;
+  font-family:var(--bf);
+  font-size:13px;
+  font-weight:500;
+  text-decoration:none;
+  white-space:nowrap;
+  transition:color .2s ease, background .2s ease;
+}
+.nl a:hover{
+  color:#fff;
+  background:rgba(255,255,255,.08);
+}
+.nav-cta-link::after{display:none}
+.nav-cta-item{margin-left:4px}
+.nav-cta-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding:10px 14px;
+  border-radius:999px;
+  background:rgba(251,246,238,.96);
+  color:var(--ink);
+  font-family:var(--bf);
+  font-size:13px;
+  font-weight:600;
+  text-decoration:none;
+  white-space:nowrap;
+  box-shadow:0 14px 30px rgba(15,10,10,.16);
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.nav-cta-link:hover{
+  color:var(--ink);
+  background:rgba(251,246,238,.96);
+  transform:translateY(-2px);
+  box-shadow:0 18px 36px rgba(15,10,10,.18);
+}
+.nav-cta-link svg{
+  width:14px;
+  height:14px;
+}
+.nbtn,
+.btn,
+.mroom-cta,
+.fsub,
+.checkup-link,
+.hero-checkup{
+  border:none;
+  text-decoration:none;
+  transition:transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+.nbtn,
+.btn,
+.mroom-cta,
+.fsub{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px 22px;
+  border-radius:999px;
+  background:#231d1d;
+  color:#fff;
+  font-family:var(--tf);
+  font-size:12px;
+  letter-spacing:.03em;
+  box-shadow:0 10px 24px rgba(35,29,29,.16);
+}
+.nbtn:hover,
+.btn:hover,
+.mroom-cta:hover,
+.fsub:hover{transform:translateY(-2px)}
+.btn-g{
+  background:rgba(255,255,255,.15);
+  color:#fff;
+  border:1px solid rgba(255,255,255,.28);
+  box-shadow:none;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+}
+.btn-s{background:#231d1d;color:#fff}
+.burger{
+  display:none;
+  width:44px;
+  height:44px;
+  border:none;
+  border-radius:999px;
+  background:rgba(255,255,255,.1);
+  box-shadow:inset 0 1px 1px rgba(255,255,255,.08);
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  padding:10px;
+  cursor:pointer;
+}
+.burger span{
+  display:block;
+  height:2px;
+  margin:4px 0;
+  border-radius:999px;
+  background:#fff;
+  transition:all .25s ease;
+}
+.burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0}
+.burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mob-menu{
+  position:fixed;
+  inset:0;
+  z-index:199;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(29,23,23,.92);
+  backdrop-filter:blur(18px);
+  -webkit-backdrop-filter:blur(18px);
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .25s ease;
+}
+.mob-menu.open{opacity:1;pointer-events:auto}
+.mob-menu-inner{
+  width:min(320px, calc(100vw - 48px));
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+  align-items:center;
+}
+.mob-menu-inner ul{
+  width:100%;
+  list-style:none;
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  align-items:center;
+}
+.mob-menu-inner a{color:#fff;text-decoration:none}
+.mob-cta-fixed{display:none}
+
+.hero,
+.s,
+.light-section,
+.clients-s,
+footer{
+  position:relative;
+  z-index:2;
+  padding:56px 52px;
+}
+.hero{
+  min-height:auto;
+  padding-top:16px;
+  padding-bottom:24px;
+}
+.hgrid,
+.hero-top{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:0;
+  align-items:stretch;
+}
+.hero-copy{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  gap:24px;
+  min-height:calc(100vh - 40px);
+  padding:132px 48px 32px;
+  border-radius:32px;
+  color:#fff;
+  background:
+    linear-gradient(180deg, rgba(19,14,14,.16), rgba(19,14,14,.72)),
+    url('https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/retreat@a79f046353fd2872719eba7840b7d8c442b6f360/background/background-small.webp') center/cover no-repeat;
+  border:1px solid rgba(255,255,255,.12);
+  box-shadow:0 36px 120px rgba(15,10,10,.28);
+}
+.hero-copy::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  z-index:1;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.08), transparent 22%),
+    linear-gradient(90deg, rgba(255,255,255,.04), transparent 38%),
+    radial-gradient(circle at 12% 16%, rgba(255,214,194,.18), transparent 28%),
+    radial-gradient(circle at 84% 18%, rgba(246,182,207,.12), transparent 24%);
+  pointer-events:none;
+}
+.hero-copy::after{
+  content:'';
+  position:absolute;
+  inset:auto -48px -64px auto;
+  z-index:1;
+  width:240px;
+  height:240px;
+  border-radius:50%;
+  background:radial-gradient(circle, rgba(255,211,186,.72) 0%, rgba(255,211,186,0) 68%);
+  pointer-events:none;
+}
+.hero-copy > *{position:relative;z-index:2}
+.hero-stage{
+  flex:1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.hero-copy-inner{
+  width:100%;
+  max-width:920px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+.hero-kicker,
+.chip,
+.pg-tag,
+.dc-v,
+.dacha-eyebrow,
+.calc-label,
+.fl,
+.checkup-price-label,
+.clients-lbl,
+.dacha-card-label{
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+.hero-kicker{
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  padding:4px;
+  border-radius:999px;
+  margin-bottom:16px;
+  opacity:0;
+  animation:heroFadeUp .75s cubic-bezier(.22,.68,0,1.02) .08s forwards;
+}
+.hero-kicker-new{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:32px;
+  padding:0 14px;
+  border-radius:999px;
+  background:rgba(251,246,238,.98);
+  color:var(--ink);
+  font-family:var(--bf);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.02em;
+  text-transform:none;
+}
+.hero-kicker-copy{
+  padding-right:12px;
+  font-family:var(--bf);
+  font-size:13px;
+  font-weight:500;
+  letter-spacing:.02em;
+  text-transform:none;
+  color:rgba(255,255,255,.9);
+}
+.hh,
+.BT,
+.dacha-name{
+  font-family:var(--tf);
+  font-weight:700;
+  letter-spacing:-.05em;
+  line-height:.98;
+}
+.hh{
+  max-width:11ch;
+  margin:0 auto;
+  font-size:clamp(54px, 8vw, 92px);
+  line-height:.84;
+  text-align:center;
+  letter-spacing:-.06em;
+}
+.hh .word{
+  display:inline-block;
+  margin-right:.18em;
+  opacity:0;
+  filter:blur(10px);
+  transform:translateY(40px);
+  animation:heroWordIn .7s cubic-bezier(.22,.68,0,1.02) forwards;
+}
+.hh .word:nth-child(1){animation-delay:.16s}
+.hh .word:nth-child(2){animation-delay:.26s}
+.hh .word:nth-child(3){animation-delay:.36s}
+.hh .word:nth-child(4){animation-delay:.46s}
+.hh .word:last-child{margin-right:0}
+@keyframes heroWordIn{
+  0%{
+    filter:blur(10px);
+    opacity:0;
+    transform:translateY(40px);
+  }
+  60%{
+    filter:blur(4px);
+    opacity:.55;
+    transform:translateY(-4px);
+  }
+  100%{
+    filter:blur(0);
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+@keyframes heroFadeUp{
+  0%{
+    opacity:0;
+    filter:blur(12px);
+    transform:translateY(24px);
+  }
+  100%{
+    opacity:1;
+    filter:blur(0);
+    transform:translateY(0);
+  }
+}
+.accent-blue,
+.BT em,
+.dacha-name em{color:var(--pink)}
+.hero-sub{
+  max-width:650px;
+  margin-top:14px;
+  font-size:16px;
+  line-height:1.6;
+  color:rgba(255,255,255,.86);
+  font-weight:300;
+  text-align:center;
+  opacity:0;
+  animation:heroFadeUp .75s cubic-bezier(.22,.68,0,1.02) .56s forwards;
+}
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:24px;
+  margin-top:24px;
+  opacity:0;
+  animation:heroFadeUp .75s cubic-bezier(.22,.68,0,1.02) .78s forwards;
+}
+.hero-actions .btn{
+  min-height:52px;
+  padding:0 22px;
+  gap:10px;
+  font-family:var(--bf);
+  font-size:13px;
+  font-weight:500;
+  letter-spacing:.03em;
+}
+.hero-actions .btn-s{
+  background:transparent;
+  color:#fff;
+  box-shadow:none;
+}
+.hero-actions .btn-g{
+  background:transparent;
+  color:rgba(255,255,255,.94);
+  border:none;
+  box-shadow:none;
+  padding:0;
+  min-height:auto;
+}
+.hero-cta-icon,
+.hero-play-icon{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+.hero-cta-icon svg{
+  width:18px;
+  height:18px;
+}
+.hero-play-icon svg{
+  width:15px;
+  height:15px;
+}
+.hero-link-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  color:rgba(255,255,255,.94);
+  font-family:var(--bf);
+  font-size:15px;
+  font-weight:500;
+  text-decoration:none;
+  transition:transform .2s ease, opacity .2s ease;
+}
+.hero-link-btn:hover{
+  transform:translateY(-1px);
+  opacity:1;
+}
+.hero-partners{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:18px;
+  padding-bottom:8px;
+  opacity:0;
+  animation:heroFadeUp .75s cubic-bezier(.22,.68,0,1.02) 1s forwards;
+}
+.hero-partners-label{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:9px 16px;
+  border-radius:999px;
+  font-family:var(--bf);
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.04em;
+  color:rgba(255,255,255,.9);
+  text-align:center;
+}
+.hero-partners-row{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:16px 32px;
+}
+.hero-partners-row span{
+  font-family:var(--tf);
+  font-size:clamp(20px, 2.8vw, 34px);
+  line-height:1;
+  letter-spacing:-.05em;
+  color:rgba(255,255,255,.96);
+  text-shadow:0 6px 24px rgba(15,10,10,.22);
+}
+.gc-p,
+.dacha-desc,
+.mroom-note,
+.pg-p,
+.offer-list li,
+.dc-dur,
+.dc-list li,
+.fql p,
+.fa,
+.hwc-d,
+.fbp{color:var(--ink-soft)}
+.day-flow,
+.pg-ul,
+.offer-list,
+.dc-list{list-style:none}
+.day-flow li,
+.pg-ul li,
+.offer-list li,
+.dc-list li{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+}
+.day-flow li::before,
+.pg-ul li::before,
+.offer-list li::before,
+.dc-list li::before{
+  content:'';
+  width:8px;
+  height:8px;
+  margin-top:9px;
+  flex-shrink:0;
+  border-radius:50%;
+  background:#231d1d;
+}
+.sec-hd{display:grid;gap:16px;margin-bottom:44px}
+.chip{
+  display:inline-flex;
+  align-items:center;
+  width:fit-content;
+  padding:8px 12px;
+  border-radius:999px;
+  background:rgba(35,29,29,.06);
+  color:rgba(29,23,23,.55);
+}
+.BT{
+  font-size:clamp(34px, 5vw, 58px);
+  color:var(--ink);
+}
+.s + .s,
+.light-section + .s,
+.s + .light-section,
+.clients-s + .s{padding-top:0}
+
+.itinerary-grid,
+.mroom-grid,
+.offer-grid,
+.dates-grid,
+.prog-grid,
+.georgia-grid{
+  display:grid;
+  gap:20px;
+}
+.day-card,
+.gc,
+.offer-card,
+.dc,
+.pg,
+.tc,
+.fbox,
+.price-table,
+.dacha-card,
+.calc-result{
+  border:1px solid var(--line);
+  box-shadow:0 8px 30px rgba(20,14,14,.05);
+}
+.day-eyebrow,
+.day-weekday,
+.mroom-meta,
+.price-room-desc,
+.mroom-price-note,
+.tc-role,
+.fbot,
+.flog-sub{color:rgba(29,23,23,.46)}
+.day-date,
+.gc-h,
+.offer-title,
+.dc-d,
+.pg-h,
+.rooms-title{
+  font-family:var(--tf);
+  letter-spacing:-.04em;
+  line-height:1.04;
+}
+.day-date{font-size:30px}
+.day-title{
+  font-family:var(--tf);
+  font-size:19px;
+  line-height:1.18;
+  margin-bottom:12px;
+}
+.day-tags,
+.dacha-pills,
+.pg-pills{display:flex;flex-wrap:wrap;gap:8px}
+.clients-row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.day-pill,
+.dacha-pill,
+.ppill,
+.pill-soft,
+.dc-dl,
+.price-avail-dot,
+.mroom-badge{
+  display:inline-flex;
+  align-items:center;
+  padding:8px 12px;
+  border-radius:999px;
+  background:rgba(255,255,255,.56);
+  border:1px solid rgba(29,23,23,.1);
+  font-size:11px;
+  color:rgba(29,23,23,.62);
+}
+
+.georgia-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.dates-cards-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:18px;
+}
+.dates-cards-grid .gc{
+  padding:28px 24px;
+}
+.dates-cards-grid .gc-h{
+  font-size:24px;
+  margin-bottom:10px;
+}
+.dates-cards-grid .gc-p{
+  font-size:14px;
+}
+.dates-cards-grid .stay-cta{
+  margin-top:auto;
+}
+.gc{
+  padding:36px 32px;
+  border-radius:28px;
+  background:#fff8ef;
+}
+.gc:nth-child(2){background:#eef8c9}
+.gc:nth-child(3){background:#f8dfeb}
+.gc-h{font-size:28px;margin-bottom:10px}
+.gc-tag{
+  display:inline-flex;
+  padding:7px 12px;
+  border-radius:999px;
+  background:rgba(35,29,29,.06);
+  font-size:11px;
+}
+
+.light-section{
+  background:transparent;
+  color:var(--ink);
+  padding-top:26px;
+}
+.dacha-intro{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:36px;
+  align-items:stretch;
+  margin-bottom:40px;
+}
+.dacha-name{
+  font-size:clamp(42px, 7vw, 74px);
+  margin-bottom:12px;
+}
+.dacha-desc{margin-bottom:14px;font-size:15px;line-height:1.6}
+.dacha-card{
+  padding:24px;
+  border-radius:22px;
+  background:linear-gradient(135deg, rgba(246,182,207,.82), rgba(231,215,255,.76));
+}
+.dacha-card.full-bleed{
+  width:100%;
+  margin:0 0 32px;
+}
+.dacha-stat-row{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+  margin:16px 0;
+}
+.dacha-stat{
+  padding:16px;
+  border-radius:14px;
+  background:rgba(255,255,255,.56);
+}
+.dacha-stat-val{
+  font-family:var(--tf);
+  font-size:20px;
+  line-height:1;
+}
+.dacha-stat-lbl,
+.dacha-note{color:rgba(29,23,23,.58)}
+.dacha-note{
+  padding:12px;
+  border-radius:14px;
+  background:rgba(255,255,255,.5);
+  font-size:12px;
+  line-height:1.5;
+}
+.dacha-gallery{
+  display:grid;
+  grid-template-columns:1.45fr repeat(4, .9fr);
+  grid-template-rows:200px;
+  gap:14px;
+  margin-bottom:32px;
+}
+.dacha-gallery img,
+.mroom-img img,
+.tc img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.dacha-gallery img,
+.mroom-img,
+.tc{border-radius:22px;overflow:hidden}
+.dacha-gallery .gimg-main{
+  grid-row:auto;
+  min-height:160px;
+}
+.rooms-title{font-size:30px;margin-bottom:20px}
+.room-tabs{
+  display:flex;
+  gap:10px;
+  overflow:auto;
+  margin-bottom:24px;
+  padding-bottom:6px;
+}
+.room-tab{
+  flex:0 0 auto;
+  padding:14px 22px;
+  border:none;
+  border-radius:999px;
+  background:rgba(35,29,29,.06);
+  color:rgba(29,23,23,.62);
+  font-weight:700;
+  cursor:pointer;
+}
+.room-tab.active{
+  background:#231d1d;
+  color:#fff;
+}
+.room-panel{display:none}
+.room-panel.active{display:block}
+.mroom-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.mroom-card{
+  border-radius:26px;
+  overflow:hidden;
+}
+.mroom-card.pink{background:linear-gradient(135deg, rgba(246,182,207,.88), rgba(255,255,255,.78))}
+.mroom-card.green{background:linear-gradient(135deg, rgba(213,239,106,.82), rgba(255,255,255,.78))}
+.mroom-card.beige{background:linear-gradient(135deg, rgba(240,217,196,.86), rgba(255,255,255,.82))}
+.mroom-card.cream2{background:linear-gradient(135deg, rgba(231,215,255,.78), rgba(255,255,255,.82))}
+.mroom-header{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:28px 28px 18px;
+}
+.mroom-num{
+  font-family:var(--tf);
+  font-size:13px;
+  color:rgba(29,23,23,.45);
+}
+.mroom-img{
+  margin:0 20px;
+  background:rgba(255,255,255,.45);
+  aspect-ratio:16/9;
+}
+.mroom-body{padding:24px 28px 32px}
+.mroom-name{
+  font-family:var(--tf);
+  font-size:26px;
+  line-height:1.1;
+  margin-bottom:10px;
+}
+.mroom-meta{
+  margin-bottom:14px;
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.mroom-footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  gap:18px;
+  padding-top:20px;
+  margin-top:20px;
+  border-top:1px solid rgba(29,23,23,.1);
+}
+.mroom-price{
+  font-family:var(--tf);
+  font-size:28px;
+  line-height:1;
+}
+.mroom-card.wide{grid-column:1/-1}
+.mroom-card.wide .mroom-inner{
+  display:grid;
+  grid-template-columns:1fr 1.08fr;
+  gap:0;
+  height:100%;
+}
+.mroom-card.wide .mroom-img{
+  margin:20px 0 20px 20px;
+  min-height:100%;
+  aspect-ratio:auto;
+}
+.price-table{
+  overflow:hidden;
+  border-radius:24px;
+  background:#fff;
+}
+.price-table-head,
+.price-row{
+  display:grid;
+  grid-template-columns:1fr auto auto;
+  gap:20px;
+  align-items:center;
+  padding:20px 28px;
+}
+.price-table-head{
+  background:#231d1d;
+  color:rgba(255,255,255,.74);
+}
+.price-row{
+  border-top:1px solid rgba(29,23,23,.08);
+}
+.price-room-name,
+.price-val{
+  font-family:var(--tf);
+  font-size:15px;
+}
+.price-avail{text-align:right}
+
+.prog-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.pg{
+  display:flex;
+  flex-direction:column;
+  padding:32px;
+  border-radius:28px;
+}
+.pg:nth-child(1){background:#fff7ee}
+.pg:nth-child(2){background:#f8dfeb}
+.pg:nth-child(3){background:#eef8c9}
+.pg-tag{
+  width:fit-content;
+  padding:8px 12px;
+  border-radius:999px;
+  background:rgba(35,29,29,.06);
+  color:rgba(29,23,23,.56);
+  margin-bottom:18px;
+}
+.pg-h{font-size:24px;margin-bottom:12px}
+.pg-ul{display:grid;gap:8px;margin:10px 0 18px}
+.ppill{background:rgba(255,255,255,.6)}
+
+.clients-s{
+  text-align:center;
+  padding-top:12px;
+}
+.clients-lbl{
+  color:rgba(29,23,23,.42);
+  margin-bottom:18px;
+}
+.pill-soft{background:rgba(35,29,29,.05)}
+
+.offer-grid{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+.offer-card{
+  padding:36px;
+  border-radius:28px;
+  background:#fff8ef;
+}
+.offer-card:nth-child(2){background:#f8dfeb}
+.offer-card.wide{
+  grid-column:1/-1;
+  background:linear-gradient(135deg, rgba(240,217,196,.82), rgba(255,255,255,.9));
+}
+.offer-title{font-size:28px;margin-bottom:14px}
+.calc-grid{
+  display:grid;
+  grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);
+  gap:16px;
+  align-items:start;
+}
+.calc-panel{display:grid;gap:12px}
+.calc-select,
+.calc-check,
+.fi2{
+  width:100%;
+  border:1px solid rgba(29,23,23,.12);
+  border-radius:18px;
+  background:rgba(255,255,255,.74);
+  color:var(--ink);
+  font-family:var(--bf);
+  font-size:15px;
+}
+.calc-select,
+.fi2{
+  padding:14px 16px;
+  outline:none;
+  appearance:none;
+}
+.calc-check{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  padding:16px;
+}
+.calc-check-main{display:flex;gap:12px;align-items:center}
+.calc-check input{width:18px;height:18px;accent-color:#231d1d}
+.calc-check-price,
+.calc-row.total strong,
+.checkup-price-value{font-family:var(--tf)}
+.calc-result{
+  padding:28px;
+  border-radius:24px;
+  background:rgba(255,255,255,.82);
+}
+.calc-row{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 0;
+  border-bottom:1px solid rgba(29,23,23,.08);
+  color:rgba(29,23,23,.58);
+}
+.calc-row strong{color:var(--ink)}
+.calc-row.total{
+  padding-top:16px;
+  border-bottom:none;
+  color:var(--ink);
+}
+.calc-foot{margin-top:8px;color:rgba(29,23,23,.5);font-size:13px}
+
+.dates-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.stay-grid{
+  display:flex;
+  gap:14px;
+  overflow-x:auto;
+  padding-bottom:10px;
+  margin-top:18px;
+  -webkit-overflow-scrolling:touch;
+  scroll-snap-type:x proximity;
+}
+.stay-grid::-webkit-scrollbar{height:4px}
+.stay-grid::-webkit-scrollbar-thumb{
+  background:rgba(35,29,29,.18);
+  border-radius:999px;
+}
+.dc{
+  padding:32px;
+  border-radius:28px;
+  background:#fff;
+}
+.dc.hot{
+  grid-column:span 2;
+  background:linear-gradient(135deg, rgba(213,239,106,.72), rgba(255,255,255,.88));
+}
+.dc:nth-child(2){background:#fff7ee}
+.dc:nth-child(3){background:#f8dfeb}
+.stay-card{
+  flex:0 0 340px;
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  scroll-snap-align:start;
+}
+.stay-card.wide{
+  flex-basis:340px;
+  background:linear-gradient(135deg, rgba(213,239,106,.72), rgba(255,255,255,.88));
+}
+.stay-card.peach{background:#fff7ee}
+.stay-card.pink{background:#f8dfeb}
+.stay-card.lav{background:linear-gradient(135deg, rgba(231,215,255,.78), rgba(255,255,255,.9))}
+.stay-thumb{
+  width:100%;
+  height:220px;
+  border-radius:20px;
+  overflow:hidden;
+}
+.stay-card.wide .stay-thumb{height:220px}
+.stay-thumb img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.stay-top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:14px;
+}
+.stay-top > div:last-child{
+  margin-left:auto;
+  text-align:right;
+  align-self:flex-start;
+  min-width:132px;
+}
+.stay-label{
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:rgba(29,23,23,.48);
+}
+.stay-price{
+  font-family:var(--tf);
+  font-size:24px;
+  line-height:1;
+  white-space:nowrap;
+}
+.stay-subprice{
+  margin-top:4px;
+  font-size:11px;
+  color:rgba(29,23,23,.48);
+  text-align:right;
+}
+.stay-meta{
+  display:inline-flex;
+  width:fit-content;
+  padding:7px 12px;
+  border-radius:999px;
+  background:rgba(255,255,255,.56);
+  border:1px solid rgba(29,23,23,.1);
+  font-size:11px;
+  color:rgba(29,23,23,.62);
+}
+.stay-card .dc-d{margin-bottom:0}
+.stay-card .dc-list{margin-top:0;flex:1}
+.stay-note{
+  padding:14px 16px;
+  border-radius:18px;
+  background:rgba(255,255,255,.45);
+  font-size:13px;
+  line-height:1.55;
+  color:rgba(29,23,23,.62);
+}
+.stay-cta{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:auto;
+  padding:12px 18px;
+  border-radius:999px;
+  background:#231d1d;
+  color:#fff;
+  text-decoration:none;
+  font-family:var(--tf);
+  font-size:12px;
+  width:100%;
+}
+.hero-date-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:18px 0 0;
+}
+.hero-date-chip{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:9px 14px;
+  border-radius:999px;
+  background:rgba(255,255,255,.55);
+  border:1px solid rgba(29,23,23,.1);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.04em;
+  color:rgba(29,23,23,.72);
+}
+.checkup-head{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:flex-start;
+  margin-bottom:14px;
+}
+.checkup-brand{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.checkup-logo{
+  width:132px;
+  height:auto;
+}
+.checkup-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:9px 14px;
+  border-radius:999px;
+  background:#231d1d;
+  color:#fff;
+  font-size:10px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.team-scroll{
+  display:flex;
+  gap:14px;
+  overflow-x:auto;
+  padding-bottom:10px;
+  margin-top:18px;
+  -webkit-overflow-scrolling:touch;
+  scroll-snap-type:x proximity;
+}
+.team-scroll::-webkit-scrollbar{height:4px}
+.team-scroll::-webkit-scrollbar-thumb{
+  background:rgba(35,29,29,.18);
+  border-radius:999px;
+}
+.tc{
+  position:relative;
+  flex:0 0 220px;
+  height:300px;
+  padding:0;
+  border-radius:20px;
+  overflow:hidden;
+  background:rgba(10,10,10,.22);
+  scroll-snap-align:start;
+}
+.tc img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 18%;
+  filter:none;
+}
+.tc img.team-photo-close{
+  object-position:center 6%;
+  transform:scale(1.18);
+}
+.tc::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to top, rgba(0,0,0,.84) 0%, rgba(0,0,0,.34) 44%, rgba(0,0,0,.08) 72%, transparent 100%);
+  pointer-events:none;
+}
+.tc-bd{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:2;
+  padding:14px 14px 12px;
+}
+.tc-name{
+  font-family:var(--tf);
+  font-size:13px;
+  line-height:1.25;
+  margin-bottom:4px;
+  color:#fff;
+  text-shadow:0 2px 12px rgba(0,0,0,.45);
+}
+.tc-role{
+  font-size:10px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  margin-bottom:6px;
+  color:#d7b58a;
+  text-shadow:0 2px 12px rgba(0,0,0,.45);
+}
+.tc-bio{
+  font-size:12px;
+  color:rgba(255,255,255,.8);
+  line-height:1.55;
+  text-shadow:0 2px 12px rgba(0,0,0,.45);
+}
+
+.faq-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:32px;
+}
+.faq-hd{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:24px;
+  flex-wrap:wrap;
+}
+.faq-hd-left{display:grid;gap:12px}
+.flist{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+  border-top:none;
+}
+.fi{
+  border-bottom:none;
+  border-radius:20px;
+  overflow:hidden;
+  background:rgba(246,182,207,.22);
+  border:1px solid rgba(246,182,207,.35);
+  transition:background .22s ease, border-color .22s ease;
+}
+.fi:nth-child(2n){
+  background:rgba(35,29,29,.05);
+  border-color:rgba(35,29,29,.1);
+}
+.fi:nth-child(3n){
+  background:rgba(213,239,106,.25);
+  border-color:rgba(213,239,106,.45);
+}
+.fi.open{
+  background:#231d1d;
+  border-color:#231d1d;
+}
+.fq{
+  display:flex;
+  justify-content:space-between;
+  gap:14px;
+  align-items:center;
+  padding:20px 22px;
+  cursor:pointer;
+  font-family:var(--tf);
+  font-size:14px;
+  line-height:1.35;
+  color:var(--ink);
+  transition:color .22s ease;
+}
+.fi.open .fq{color:#fff}
+.farr{
+  width:28px;
+  height:28px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(35,29,29,.08);
+  color:var(--ink);
+  flex-shrink:0;
+  transition:transform .22s ease, background .22s ease, color .22s ease;
+  font-size:16px;
+  line-height:1;
+}
+.fi.open .farr{
+  transform:rotate(45deg);
+  background:rgba(255,255,255,.15);
+  color:#fff;
+}
+.fa{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .35s ease, padding .35s ease;
+  font-size:13px;
+  line-height:1.6;
+  color:rgba(255,255,255,.82);
+}
+.fi.open .fa{
+  max-height:240px;
+  padding:0 22px 18px;
+}
+
+.how-form-wrap{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:36px;
+  align-items:start;
+}
+.how-steps-compact{display:grid;gap:18px}
+.hwc{
+  display:flex;
+  gap:18px;
+  padding:24px;
+  border-radius:22px;
+  background:#fff;
+  border:1px solid rgba(29,23,23,.1);
+}
+.hwc:nth-child(2){background:#f8dfeb}
+.hwc:nth-child(3){background:#eef8c9}
+.hwc:nth-child(4){background:#fff7ee}
+.hwc-num{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#231d1d;
+  color:#fff;
+  font-family:var(--tf);
+  font-size:14px;
+  flex-shrink:0;
+}
+.hwc-h,
+.fbox h3{
+  font-family:var(--tf);
+  font-size:18px;
+  line-height:1.2;
+  color:var(--ink);
+}
+.fbox{
+  padding:36px;
+  border-radius:26px;
+  background:linear-gradient(135deg, rgba(246,182,207,.72), rgba(255,255,255,.88));
+}
+.fbox h3{margin-bottom:28px}
+.fg{margin-bottom:16px}
+.fl{display:block;color:rgba(29,23,23,.5);margin-bottom:6px}
+.fi2::placeholder{color:rgba(29,23,23,.44)}
+select.fi2{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='rgba(29,23,23,.55)' fill='none' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-position:right 16px center;
+}
+textarea.fi2{min-height:92px;resize:vertical}
+.fn{
+  margin-top:10px;
+  text-align:center;
+  font-size:12px;
+  color:rgba(29,23,23,.48);
+}
+
+footer{
+  padding-top:0;
+  background:transparent;
+}
+.ftop{
+  display:grid;
+  grid-template-columns:1.8fr 1fr 1fr 1fr;
+  gap:32px;
+  padding:44px;
+  border-radius:28px;
+  background:#231d1d;
+  color:#fff;
+}
+.flog{
+  font-family:var(--tf);
+  font-size:13px;
+  text-decoration:none;
+  color:#fff;
+}
+.fbp,
+.fcol ul a,
+.fbot{color:rgba(255,255,255,.66)}
+.fcol h4{
+  margin-bottom:10px;
+  font-family:var(--tf);
+  font-size:10px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.46);
+}
+.fcol ul{
+  list-style:none;
+  display:grid;
+  gap:6px;
+}
+.fcol ul a{text-decoration:none}
+.fbot{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  padding:24px 4px 0;
+  font-size:12px;
+}
+
+.rv{
+  opacity:0;
+  transform:translateY(22px);
+  transition:opacity .65s ease, transform .65s ease;
+}
+.rv.on{
+  opacity:1;
+  transform:none;
+}
+.d1{transition-delay:.08s}
+.d2{transition-delay:.16s}
+.d3{transition-delay:.24s}
+.d4{transition-delay:.32s}
+
+/* ── SKIP LINK ── */
+.skip-link{
+  position:fixed;
+  top:-100%;left:16px;
+  z-index:9999;
+  padding:10px 18px;
+  border-radius:8px;
+  background:#231d1d;
+  color:#fff;
+  font-size:13px;
+  text-decoration:none;
+  transition:top .2s ease;
+}
+.skip-link:focus{top:16px}
+
+/* ── SCROLL FADE MASKS ── */
+.stay-grid-wrap,
+.team-scroll-wrap{position:relative}
+.stay-grid-wrap::after,
+.team-scroll-wrap::after{
+  content:'';
+  position:absolute;
+  top:0;right:0;bottom:10px;
+  width:80px;
+  pointer-events:none;
+  background:linear-gradient(to left, rgba(245,239,229,.98), transparent);
+}
+
+/* ── FOCUS VISIBLE ── */
+:focus-visible{
+  outline:2px solid var(--pink-strong);
+  outline-offset:3px;
+}
+a:focus-visible,
+button:focus-visible{border-radius:6px}
+
+/* ── CARD HOVER LIFTS ── */
+.day-card,
+.gc,
+.pg,
+.offer-card,
+.dc{
+  transition:var(--card-transition);
+}
+.day-card:hover,
+.gc:hover,
+.pg:hover,
+.offer-card:hover,
+.dc:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--card-hover-shadow);
+}
+
+/* ── STAY CARD HOVER ── */
+.stay-card{transition:var(--card-transition)}
+.stay-card:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--card-hover-shadow);
+}
+
+/* ── GALLERY ZOOM ── */
+.dacha-gallery img{
+  transition:transform .45s cubic-bezier(.22,.68,0,1.15);
+}
+.dacha-gallery figure:hover img,
+.dacha-gallery img:hover{transform:scale(1.06)}
+
+/* ── NAV LINK UNDERLINE ── */
+.nl a{position:relative}
+.nl a::after{
+  content:'';
+  position:absolute;
+  bottom:-3px;left:0;
+  width:0;height:1px;
+  background:rgba(255,255,255,.7);
+  transition:width .22s ease;
+}
+.nl a:hover::after{width:100%}
+
+/* ── BUTTON ACTIVE STATE ── */
+.nbtn:active,
+.btn:active,
+.mroom-cta:active,
+.fsub:active,
+.stay-cta:active{transform:translateY(1px) !important}
+
+/* ── STAY CTA ── */
+.stay-cta{transition:background .2s ease, transform .2s ease}
+.stay-cta:hover{background:#3d3232}
+
+/* ── CURSOR ── */
+.fq{cursor:pointer}
+.nbtn,.btn,.mroom-cta,.fsub,.stay-cta,.room-tab{cursor:pointer}
+
+/* ── TOUCH ACTION ── */
+button,.nbtn,.btn,.mroom-cta,.fsub,.stay-cta,.room-tab,.fq{
+  touch-action:manipulation;
+}
+
+/* ── INPUT FOCUS ── */
+.calc-select:focus,
+.fi2:focus{
+  outline:none;
+  border-color:rgba(29,23,23,.3);
+  box-shadow:0 0 0 3px rgba(246,182,207,.35);
+}
+.calc-select:focus-visible,
+.fi2:focus-visible{outline:none}
+
+/* ── MOBILE CTA SHADOW ── */
+.mob-cta-fixed a{
+  box-shadow:0 8px 28px rgba(35,29,29,.4), 0 0 0 1px rgba(255,255,255,.06);
+}
+
+/* ── TEAM CARD HOVER ── */
+.tc{transition:transform .25s ease, box-shadow .25s ease}
+.tc:hover{
+  transform:translateY(-4px) scale(1.01);
+  box-shadow:0 16px 40px rgba(10,6,6,.22);
+}
+
+/* ── HEADING EM ACCENT ── */
+.BT em,
+.dacha-name em{
+  color:var(--pink);
+  font-style:normal;
+  text-decoration:underline;
+  text-decoration-color:var(--pink-strong);
+  text-underline-offset:5px;
+  text-decoration-thickness:2px;
+}
+
+/* ── SECTION NAV ARROWS ── */
+.sec-hd-row{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:44px;
+}
+.sec-arrows{
+  display:flex;
+  gap:8px;
+  flex-shrink:0;
+  padding-bottom:4px;
+}
+.sec-arrow{
+  width:44px;height:44px;
+  border-radius:50%;
+  border:1.5px solid rgba(29,23,23,.18);
+  background:transparent;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;
+  font-size:16px;
+  color:var(--ink);
+  transition:background .2s ease, border-color .2s ease, color .2s ease, transform .2s ease;
+  touch-action:manipulation;
+}
+.sec-arrow:hover{
+  background:#231d1d;
+  border-color:#231d1d;
+  color:#fff;
+}
+.sec-arrow:active{transform:scale(.93)}
+
+/* ── DAY CARD NUMBER BADGE ── */
+.day-num-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:40px;height:40px;
+  border-radius:50%;
+  background:#231d1d;
+  color:#fff;
+  font-family:var(--tf);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.04em;
+  flex-shrink:0;
+}
+
+/* separator removed */
+
+
+/* ── CALC ROOMS LIST ── */
+.calc-rooms-list{display:grid;gap:10px;margin-bottom:4px}
+.calc-room-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:12px 14px;
+  border-radius:14px;
+  background:rgba(255,255,255,.7);
+  border:1px solid rgba(42,36,36,.08);
+}
+.calc-room-info{display:flex;flex-direction:column;gap:2px;min-width:0}
+.calc-room-name{font-family:var(--tf);font-size:13px;font-weight:600;color:var(--ink)}
+.calc-room-note{font-size:11px;color:rgba(42,36,36,.48)}
+.calc-qty-wrap{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.calc-qty-btn{
+  width:30px;height:30px;border-radius:50%;
+  border:1.5px solid rgba(42,36,36,.18);
+  background:transparent;cursor:pointer;
+  font-size:16px;line-height:1;
+  display:flex;align-items:center;justify-content:center;
+  transition:background .18s ease,border-color .18s ease;
+}
+.calc-qty-btn:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.calc-qty-num{
+  font-family:var(--tf);font-size:16px;font-weight:700;
+  min-width:20px;text-align:center;color:var(--ink);
+}
+.calc-panel>div+div{margin-top:18px}
+
+
+/* ── HERO DATES BIG ── */
+.hero-dates-big{
+  font-family:var(--tf);
+  font-size:clamp(38px,6vw,72px);
+  font-weight:800;
+  letter-spacing:-.04em;
+  line-height:1;
+  color:#fff;
+  margin-bottom:16px;
+}
+
+/* ── DAY TABS ── */
+.day-tabs{
+  display:flex;
+  gap:0;
+  border-bottom:1.5px solid rgba(29,23,23,.12);
+  margin-bottom:0;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+}
+.day-tabs::-webkit-scrollbar{display:none}
+.day-tab{
+  flex:1 0 auto;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:6px;
+  padding:20px 24px 18px;
+  border:none;
+  background:transparent;
+  cursor:pointer;
+  border-bottom:2px solid transparent;
+  margin-bottom:-1.5px;
+  transition:border-color .2s ease, background .2s ease;
+  text-align:left;
+  position:relative;
+}
+.day-tab:hover{background:rgba(29,23,23,.03)}
+.day-tab.active{
+  border-bottom-color:var(--ink);
+  background:rgba(29,23,23,.04);
+}
+.day-tab-meta{
+  font-family:var(--bf);
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:rgba(29,23,23,.40);
+  transition:color .2s;
+}
+.day-tab.active .day-tab-meta{color:rgba(29,23,23,.58)}
+.day-tab-title{
+  font-family:var(--tf);
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:-.02em;
+  color:rgba(29,23,23,.45);
+  line-height:1.2;
+  transition:color .2s;
+}
+.day-tab.active .day-tab-title{color:var(--ink)}
+
+/* ── DAY PANELS ── */
+.day-panels{
+  border:1px solid rgba(29,23,23,.10);
+  border-top:none;
+  border-radius:0 0 24px 24px;
+  overflow:hidden;
+}
+.day-panel{display:none}
+.day-panel.active{display:block}
+.day-panel-inner{
+  display:grid;
+  grid-template-columns:120px minmax(0,1fr);
+  gap:0;
+  min-height:280px;
+}
+.day-panel-num{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:var(--tf);
+  font-size:48px;
+  font-weight:800;
+  letter-spacing:-.04em;
+  color:rgba(29,23,23,.08);
+  border-right:1px solid rgba(29,23,23,.08);
+  background:rgba(255,255,255,.5);
+}
+.day-panel-body{
+  padding:36px 40px;
+  background:#fff;
+}
+.day-panel:nth-child(1) .day-panel-body{background:linear-gradient(160deg,rgba(246,182,207,.18) 0%,rgba(255,255,255,1) 50%)}
+.day-panel:nth-child(2) .day-panel-body{background:linear-gradient(160deg,rgba(213,239,106,.15) 0%,rgba(255,255,255,1) 50%)}
+.day-panel:nth-child(3) .day-panel-body{background:linear-gradient(160deg,rgba(240,217,196,.18) 0%,rgba(255,255,255,1) 50%)}
+.day-panel:nth-child(4) .day-panel-body{background:linear-gradient(160deg,rgba(231,215,255,.18) 0%,rgba(255,255,255,1) 50%)}
+.day-panel:nth-child(5) .day-panel-body{background:linear-gradient(160deg,rgba(213,239,106,.12) 0%,rgba(255,255,255,1) 50%)}
+
+@media(max-width:960px){
+  .day-tab{padding:16px 16px 14px;flex:0 0 auto;min-width:160px}
+  .day-tab-title{font-size:12px}
+  .day-panel-inner{grid-template-columns:1fr}
+  .day-panel-num{display:none}
+  .day-panel-body{padding:28px}
+}
+@media(max-width:640px){
+  .day-tab{min-width:140px;padding:14px 14px 12px}
+  .day-tab-meta{font-size:9px}
+  .day-tab-title{font-size:11px}
+  .day-panel-body{padding:22px}
+}
+
+/* ── PREFERS REDUCED MOTION ── */
+
+/* ══ UX / SPACING OVERHAUL ══ */
+.s,.light-section{padding-top:80px;padding-bottom:80px}
+.hero{padding-top:16px;padding-bottom:24px}
+.clients-s{padding-top:52px;padding-bottom:52px}
+.sec-hd{gap:20px;margin-bottom:56px}
+.hero-actions{margin-top:24px;gap:24px}
+.georgia-grid{gap:24px}
+.gc{padding:40px 36px}
+.gc-h{margin-bottom:14px}
+.prog-grid{gap:24px}
+.pg{padding:36px}
+.pg-tag{margin-bottom:20px}
+.pg-h{margin-bottom:16px}
+.pg-ul{gap:10px;margin:14px 0 22px}
+.pg-pills{gap:10px}
+.offer-grid{gap:24px}
+.offer-card{padding:40px}
+.offer-title{margin-bottom:20px}
+.offer-list{display:grid;gap:12px}
+.offer-list li{gap:12px}
+.dacha-eyebrow{margin-bottom:12px;display:block}
+.dacha-name{margin-bottom:18px}
+.dacha-gallery{gap:16px;margin-bottom:56px}
+.dacha-stat-row{gap:12px;margin:18px 0}
+.dacha-stat{padding:18px}
+.dacha-card{padding:32px;border-radius:26px;display:flex;flex-direction:column;justify-content:space-between}
+.stay-card{padding:20px 20px 24px;border-radius:26px}
+.stay-thumb{border-radius:16px;margin-bottom:4px}
+.stay-top{margin-bottom:4px}
+.stay-meta{margin-bottom:8px}
+.stay-cta{margin-top:12px}
+.stay-grid{gap:20px;padding-bottom:12px}
+.flist{gap:12px}
+.fq{padding:22px 24px}
+.how-steps-compact{gap:20px}
+.hwc{gap:20px;padding:28px}
+.hwc-h{margin-bottom:6px}
+.fbox{padding:40px}
+.fbox h3{margin-bottom:32px}
+.fg{margin-bottom:18px}
+.fl{margin-bottom:8px}
+.ftop{gap:40px;padding:52px}
+.fbot{padding-top:28px}
+.clients-lbl{margin-bottom:24px}
+.sec-hd-row{margin-bottom:32px!important}
+.dacha-intro-text{display:flex;flex-direction:column}
+
+/* ══ UNIFIED SECTION HEADER SYSTEM ══ */
+.sh{display:flex;flex-direction:column;margin-bottom:56px}
+.sh-tag{
+  display:block;width:fit-content;
+  font-family:var(--bf);font-size:10px;font-weight:700;
+  letter-spacing:.18em;text-transform:uppercase;
+  color:rgba(29,23,23,.42);margin-bottom:18px;
+  padding:8px 14px;border-radius:999px;
+  background:rgba(29,23,23,.06);border:1px solid rgba(29,23,23,.08);
+}
+.sh-title{
+  font-family:var(--tf);font-size:clamp(34px,5vw,58px);
+  font-weight:700;letter-spacing:-.05em;line-height:.98;color:var(--ink);
+}
+.sh-title em{
+  color:var(--pink);font-style:normal;
+  text-decoration:underline;text-decoration-color:var(--pink-strong);
+  text-underline-offset:5px;text-decoration-thickness:2px;
+}
+.sh-desc{margin-top:20px;font-size:15px;font-weight:300;color:var(--w6);line-height:1.8;max-width:580px}
+.sh-row{flex-direction:row;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:20px;margin-bottom:32px}
+.sh-row .sh-left{display:flex;flex-direction:column}
+.sh{margin-bottom:56px}
+.sh-row{margin-bottom:40px}
+.sh-tag + .dacha-name{margin-top:14px}
+
+@media(max-width:960px){
+  .sh{margin-bottom:40px}
+  .sh-row{flex-direction:column;align-items:flex-start;gap:16px;margin-bottom:28px}
+  .sh-title{font-size:clamp(28px,6vw,42px)}
+}
+
+
+/* ── CALC ROOMS LIST ── */
+.calc-rooms-list{display:grid;gap:10px;margin-bottom:4px}
+.calc-room-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:12px 14px;
+  border-radius:14px;
+  background:rgba(255,255,255,.7);
+  border:1px solid rgba(42,36,36,.08);
+}
+.calc-room-info{display:flex;flex-direction:column;gap:2px;min-width:0}
+.calc-room-name{font-family:var(--tf);font-size:13px;font-weight:600;color:var(--ink)}
+.calc-room-note{font-size:11px;color:rgba(42,36,36,.48)}
+.calc-qty-wrap{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.calc-qty-btn{
+  width:30px;height:30px;border-radius:50%;
+  border:1.5px solid rgba(42,36,36,.18);
+  background:transparent;cursor:pointer;
+  font-size:16px;line-height:1;
+  display:flex;align-items:center;justify-content:center;
+  transition:background .18s ease,border-color .18s ease;
+}
+.calc-qty-btn:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.calc-qty-num{
+  font-family:var(--tf);font-size:16px;font-weight:700;
+  min-width:20px;text-align:center;color:var(--ink);
+}
+.calc-panel>div+div{margin-top:18px}
+
+
+/* ── HERO DATES BIG ── */
+.hero-dates-big{
+  font-family:var(--tf);
+  font-size:clamp(38px,6vw,72px);
+  font-weight:800;
+  letter-spacing:-.04em;
+  line-height:1;
+  color:#fff;
+  margin-bottom:16px;
+}
+
+/* ── DAY TABS ── */
+.day-tabs{
+  display:flex;
+  gap:0;
+  border-bottom:1.5px solid rgba(29,23,23,.12);
+  margin-bottom:0;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+}
+.day-tabs::-webkit-scrollbar{display:none}
+.day-tab{
+  flex:1 0 auto;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:6px;
+  padding:20px 24px 18px;
+  border:none;
+  background:transparent;
+  cursor:pointer;
+  border-bottom:2px solid transparent;
+  margin-bottom:-1.5px;
+  transition:border-color .2s ease, background .2s ease;
+  text-align:left;
+  position:relative;
+}
+.day-tab:hover{background:rgba(29,23,23,.03)}
+.day-tab.active{
+  border-bottom-color:var(--ink);
+  background:rgba(29,23,23,.04);
+}
+.day-tab-meta{
+  font-family:var(--bf);
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:rgba(29,23,23,.40);
+  transition:color .2s;
+}
+.day-tab.active .day-tab-meta{color:rgba(29,23,23,.58)}
+.day-tab-title{
+  font-family:var(--tf);
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:-.02em;
+  color:rgba(29,23,23,.45);
+  line-height:1.2;
+  transition:color .2s;
+}
+.day-tab.active .day-tab-title{color:var(--ink)}
+
+/* ── DAY PANELS ── */
+.day-panels{
+  border:1px solid rgba(29,23,23,.10);
+  border-top:none;
+  border-radius:0 0 24px 24px;
+  overflow:hidden;
+}
+.day-panel{display:none}
+.day-panel.active{display:block}
+.day-panel-inner{
+  display:grid;
+  grid-template-columns:120px minmax(0,1fr);
+  gap:0;
+  min-height:280px;
+}
+.day-panel-num{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:var(--tf);
+  font-size:48px;
+  font-weight:800;
+  letter-spacing:-.04em;
+  color:rgba(29,23,23,.08);
+  border-right:1px solid rgba(29,23,23,.08);
+  background:rgba(255,255,255,.5);
+}
+.day-panel-body{
+  padding:36px 40px;
+  background:#fff;
+}
+.day-panel:nth-child(1) .day-panel-body{background:linear-gradient(160deg,rgba(246,182,207,.18) 0%,rgba(255,255,255,1) 50%)}
+.day-panel:nth-child(2) .day-panel-body{background:linear-gradient(160deg,rgba(213,239,106,.15) 0%,rgba(255,255,255,1) 50%)}
+.day-panel:nth-child(3) .day-panel-body{background:linear-gradient(160deg,rgba(240,217,196,.18) 0%,rgba(255,255,255,1) 50%)}
+.day-panel:nth-child(4) .day-panel-body{background:linear-gradient(160deg,rgba(231,215,255,.18) 0%,rgba(255,255,255,1) 50%)}
+.day-panel:nth-child(5) .day-panel-body{background:linear-gradient(160deg,rgba(213,239,106,.12) 0%,rgba(255,255,255,1) 50%)}
+
+@media(max-width:960px){
+  .day-tab{padding:16px 16px 14px;flex:0 0 auto;min-width:160px}
+  .day-tab-title{font-size:12px}
+  .day-panel-inner{grid-template-columns:1fr}
+  .day-panel-num{display:none}
+  .day-panel-body{padding:28px}
+}
+@media(max-width:640px){
+  .day-tab{min-width:140px;padding:14px 14px 12px}
+  .day-tab-meta{font-size:9px}
+  .day-tab-title{font-size:11px}
+  .day-panel-body{padding:22px}
+}
+
+/* ── PREFERS REDUCED MOTION ── */
+@media(prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none}
+  *,*::before,*::after{
+    transition-duration:.01ms !important;
+    animation-duration:.01ms !important;
+  }
+}
+
+@media(max-width:960px){
+  .wrap{
+    width:100%;
+    margin:0;
+    border-radius:0;
+  }
+  /* separator removed */
+  .stay-grid-wrap::after,
+  .team-scroll-wrap::after{width:48px}
+  .flist{grid-template-columns:1fr}
+  .sec-hd-row{margin-bottom:28px}
+  nav,
+  .hero,
+  .s,
+  .light-section,
+  .clients-s,
+  footer{padding-left:24px;padding-right:24px}
+  nav{
+    top:14px;
+    left:0;
+    right:0;
+    margin:0;
+    padding:0 24px;
+  }
+  .nav-pill,
+  .nbtn.nav-cta-desktop{display:none}
+  .burger{display:inline-flex;align-items:center;justify-content:center}
+  .mob-cta-fixed{
+    display:block;
+    position:fixed;
+    left:50%;
+    bottom:18px;
+    transform:translateX(-50%);
+    z-index:90;
+  }
+  .mob-cta-fixed a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:13px 22px;
+    border-radius:999px;
+    background:#231d1d;
+    color:#fff;
+    font-family:var(--tf);
+    font-size:12px;
+    text-decoration:none;
+  }
+  .hgrid,
+  .hero-top,
+  .dacha-intro,
+  .faq-grid,
+  .how-form-wrap,
+  .calc-grid{grid-template-columns:1fr}
+  .hero-copy{
+    min-height:calc(100vh - 28px);
+    padding:112px 32px 28px;
+    gap:20px;
+  }
+  .hero-partners-row{
+    gap:14px 22px;
+  }
+  .hero-partners-row span{
+    font-size:clamp(18px, 5vw, 28px);
+  }
+  .georgia-grid,
+  .mroom-grid,
+  .prog-grid,
+  .offer-grid,
+  .dates-grid{grid-template-columns:1fr}
+  .stay-card{
+    flex-basis:320px;
+  }
+  .stay-card.wide{
+    flex-basis:360px;
+  }
+  .team-scroll{
+    gap:12px;
+    margin-right:-4px;
+  }
+  .tc{
+    flex-basis:188px;
+    height:270px;
+  }
+  .dc.hot,
+  .offer-card.wide,
+  .mroom-card.wide{grid-column:span 1}
+  .mroom-card.wide .mroom-inner{grid-template-columns:1fr}
+  .mroom-card.wide .mroom-img{
+    margin:0 16px;
+    min-height:220px;
+    aspect-ratio:16/10;
+  }
+  .dacha-gallery{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:auto;
+  }
+  .dacha-gallery .gimg-main{
+    grid-column:1/-1;
+    grid-row:auto;
+    min-height:260px;
+  }
+  .price-table-head,
+  .price-row{grid-template-columns:1fr auto}
+  .price-avail{display:none}
+  .ftop{
+    grid-template-columns:1fr 1fr;
+    padding:28px;
+  }
+  .fbot{
+    flex-direction:column;
+    padding-left:0;
+    padding-right:0;
+  }
+}
+@media(max-width:640px){
+  /* separator removed */
+  .stay-grid-wrap::after,
+  .team-scroll-wrap::after{display:none}
+  .hero,
+  .s,
+  .light-section,
+  .clients-s,
+  footer{padding-left:18px;padding-right:18px}
+  nav{
+    top:12px;
+    padding:0 18px;
+  }
+  .logo-mark{
+    width:42px;
+    height:42px;
+    font-size:11px;
+  }
+  .logo-sub{display:none}
+  .hh{max-width:none;font-size:clamp(38px, 12vw, 52px)}
+  .BT,
+  .dacha-name{font-size:34px}
+  .dacha-gallery,
+  .dacha-stat-row,
+  .ftop{grid-template-columns:1fr}
+  .ftop{gap:18px}
+  .hero-copy{
+    min-height:calc(100vh - 24px);
+    padding:96px 22px 22px;
+    border-radius:24px;
+  }
+  .hero-kicker{
+    gap:8px;
+  }
+  .hero-kicker-copy{
+    padding-right:10px;
+    font-size:12px;
+  }
+  .hero-sub{font-size:15px;line-height:1.55}
+  .hero-actions{
+    flex-direction:column;
+    gap:12px;
+  }
+  .hero-actions .btn,
+  .hero-link-btn{
+    width:100%;
+    justify-content:center;
+  }
+  .hero-link-btn{
+    padding:12px 0;
+  }
+  .hero-partners{
+    gap:14px;
+  }
+  .hero-partners-label{
+    font-size:10px;
+    padding:8px 14px;
+  }
+  .hero-partners-row{
+    gap:12px 16px;
+  }
+  .hero-partners-row span{
+    font-size:16px;
+  }
+  .stay-thumb,
+  .stay-card.wide .stay-thumb{height:220px}
+  .stay-card{
+    flex-basis:280px;
+  }
+  .stay-card.wide{
+    flex-basis:300px;
+  }
+  .tc{
+    flex-basis:168px;
+    height:248px;
+  }
+}
+
+/* ── ORGANIZER BLOCK ── */
+.organizer-block{
+  display:flex;
+  align-items:stretch;
+  gap:32px;
+  margin:32px 0 40px;
+  background:var(--paper-strong);
+  border-radius:24px;
+  overflow:hidden;
+  border:1px solid var(--line);
+  box-shadow:0 8px 32px rgba(20,14,14,.07);
+}
+.organizer-photo-wrap{
+  flex:0 0 260px;
+  position:relative;
+  overflow:hidden;
+}
+.organizer-photo{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 12%;
+  display:block;
+}
+.organizer-info{
+  flex:1;
+  padding:32px 32px 28px 8px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  justify-content:center;
+}
+.organizer-badge{
+  display:inline-flex;
+  align-items:center;
+  padding:4px 12px;
+  border-radius:999px;
+  background:var(--pink);
+  color:var(--ink);
+  font-family:var(--bf);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  width:fit-content;
+}
+.organizer-name{
+  font-family:var(--tf);
+  font-size:clamp(22px,3vw,30px);
+  font-weight:700;
+  letter-spacing:-.03em;
+  line-height:1.1;
+  color:var(--ink);
+}
+.organizer-role{
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--sand);
+}
+.organizer-bio{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  font-size:14px;
+  line-height:1.65;
+  color:var(--ink-soft);
+  max-width:560px;
+}
+.organizer-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:4px;
+}
+.nav-cta-standalone{
+  display:inline-flex;
+  align-items:center;
+  padding:10px 18px;
+  border-radius:999px;
+  background:#fff;
+  color:#1d1717;
+  font-family:var(--bf);
+  font-size:13px;
+  font-weight:700;
+  text-decoration:none;
+  white-space:nowrap;
+  box-shadow:0 8px 24px rgba(15,10,10,.22);
+  transition:transform .2s ease, box-shadow .2s ease;
+  flex-shrink:0;
+}
+.nav-cta-standalone:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 32px rgba(15,10,10,.26);
+  color:#1d1717;
+}
+@media(max-width:900px){.nav-cta-standalone{display:none}}
+.lang-switcher{
+  display:flex;
+  align-items:center;
+  gap:4px;
+  background:rgba(255,255,255,.1);
+  border-radius:999px;
+  padding:4px 6px;
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+}
+.lang-btn{
+  border:none;
+  background:transparent;
+  color:rgba(255,255,255,.7);
+  font-family:var(--bf);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.08em;
+  padding:5px 9px;
+  border-radius:999px;
+  cursor:pointer;
+  transition:background .2s, color .2s;
+}
+.lang-btn:hover{color:#fff;background:rgba(255,255,255,.08)}
+.lang-btn.active{background:rgba(255,255,255,.92);color:var(--ink);}
+.organizer-tag{
+  padding:5px 12px;
+  border-radius:999px;
+  background:rgba(29,23,23,.06);
+  font-size:11px;
+  font-weight:500;
+  color:var(--ink-soft);
+  letter-spacing:.02em;
+}
+@media(max-width:720px){
+  .organizer-block{flex-direction:column;}
+  .organizer-photo-wrap{height:240px;flex:none;width:100%;}
+  .organizer-info{padding:20px 20px 24px;}
+}
+</style>
+</head>
+<body>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=589162157439651&ev=PageView&noscript=1"
+/></noscript>
+<a href="#main-content" class="skip-link" data-i18n="skip">Перейти к содержимому</a>
+<div id="scene"></div>
+<div id="scov"></div>
+<div class="wrap">
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">
+    <span class="logo-mark">AR</span>
+    <span class="logo-text">
+      <span class="logo-main">ALTO RETREAT</span>
+      <span class="logo-sub" data-i18n="nav.sub">Family Mountain Escape · 2026</span>
+    </span>
+  </a>
+  <div class="nav-pill">
+    <ul class="nl liquid-glass">
+      <li><a href="#activities" data-i18n="nav.trip">Заезд</a></li>
+      <li><a href="#venues" data-i18n="nav.rooms">Номера</a></li>
+      <li><a href="#programs" data-i18n="nav.program">Программа</a></li>
+      <li><a href="#dates" data-i18n="nav.checkup">Чекап</a></li>
+      <li><a href="#team" data-i18n="nav.team">Команда</a></li>
+      <li><a href="#faq">FAQ</a></li>
+
+    </ul>
+  </div>
+  <a href="#form" class="nav-cta-standalone" data-i18n="nav.cta">Book Now</a>
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('en')" data-lang="en">EN</button>
+    <button class="lang-btn" onclick="setLang('ru')" data-lang="ru">RU</button>
+    <button class="lang-btn" onclick="setLang('de')" data-lang="de">DE</button>
+  </div>
+  <button class="burger" onclick="toggleMenu()" aria-label="Меню">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mob-menu" id="mobMenu">
+  <div class="mob-menu-inner">
+    <ul>
+      <li><a href="#activities" onclick="toggleMenu()" data-i18n="mob.trip">Как проходит заезд</a></li>
+      <li><a href="#venues" onclick="toggleMenu()" data-i18n="mob.rooms">Отель и номера</a></li>
+      <li><a href="#programs" onclick="toggleMenu()" data-i18n="mob.program">Программа отдыха</a></li>
+      <li><a href="#dates" onclick="toggleMenu()" data-i18n="mob.checkup">Чекап в A-clinic</a></li>
+      <li><a href="#faq" onclick="toggleMenu()" data-i18n="mob.faq">Частые вопросы</a></li>
+    </ul>
+    <a href="#form" class="nbtn" style="width:100%;text-align:center;justify-content:center" onclick="toggleMenu()" data-i18n="nav.cta">Оставить заявку</a>
+  </div>
+</div>
+<div class="mob-cta-fixed">
+  <a href="#form" data-i18n="nav.cta">Оставить заявку</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="main-content">
+  <div class="hgrid">
+    <div class="hero-top">
+      <div class="hero-copy">
+        <div class="hero-stage">
+          <div class="hero-copy-inner">
+            <div class="hero-kicker liquid-glass">
+              <span class="hero-kicker-new" data-i18n="hero.new">Новый</span>
+              <span class="hero-kicker-copy" data-i18n="hero.kicker">Семейные заезды в горах Грузии · май и июнь 2026</span>
+            </div>
+            <h1 class="hh">
+              <span class="word" data-i18n="hero.w1">Семейный</span>
+              <span class="word" data-i18n="hero.w2">выезд</span>
+              <span class="word" data-i18n="hero.w3">в</span>
+              <span class="word accent-blue" data-i18n="hero.w4">горы</span>
+            </h1>
+            <p class="hero-sub" data-i18n="hero.sub">Кантри-стайл отель на краю каньона, в двух часах от Тбилиси. Пять дней движения, восстановления и настоящего семейного времени — с массажами, зарядками, специалистами и горным воздухом.</p>
+            <div class="hero-actions">
+              <a href="#form" class="btn btn-s liquid-glass-strong">
+                <span data-i18n="hero.book">Забронировать</span>
+                <span class="hero-cta-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17 17 7"></path>
+                    <path d="M7 7h10v10"></path>
+                  </svg>
+                </span>
+              </a>
+              <a href="#activities" class="hero-link-btn">
+                <span data-i18n="hero.viewprogram">Смотреть программу</span>
+                <span class="hero-play-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="m8 6 10 6-10 6z"></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-partners" aria-label="Ключевые даты и акценты заезда">
+          <div class="hero-partners-label liquid-glass">
+            <span data-i18n="hero.partners">Пять дней движения, восстановления и семейного времени</span>
+          </div>
+          <div class="hero-partners-row" data-i18n-html="hero.row">
+            <span>22–26 мая</span>
+            <span>5–9 июня</span>
+            <span>Edis Dacha</span>
+            <span>Каньон</span>
+            <span>A-clinic</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAM -->
+<section class="s" id="activities">
+  <div class="rv sh">
+    <h2 class="sh-title"><span data-i18n="prog.title">Как пройдёт</span> <em data-i18n="prog.title.em">заезд</em></h2>
+  </div>
+
+  <!-- Day tabs -->
+  <div class="day-tabs rv" role="tablist">
+    <button class="day-tab active" role="tab" aria-selected="true" aria-controls="day-panel-1" onclick="switchDay(this,'day-panel-1')">
+      <span class="day-tab-meta" data-i18n="d1.meta">День 1</span>
+      <span class="day-tab-title" data-i18n="d1.tab">Заезд и первый вечер</span>
+    </button>
+    <button class="day-tab" role="tab" aria-selected="false" aria-controls="day-panel-2" onclick="switchDay(this,'day-panel-2')">
+      <span class="day-tab-meta" data-i18n="d2.meta">День 2</span>
+      <span class="day-tab-title" data-i18n="d2.tab">Чекап и дорога в горы</span>
+    </button>
+    <button class="day-tab" role="tab" aria-selected="false" aria-controls="day-panel-3" onclick="switchDay(this,'day-panel-3')">
+      <span class="day-tab-meta" data-i18n="d3.meta">День 3</span>
+      <span class="day-tab-title" data-i18n="d3.tab">Тело и движение</span>
+    </button>
+    <button class="day-tab" role="tab" aria-selected="false" aria-controls="day-panel-4" onclick="switchDay(this,'day-panel-4')">
+      <span class="day-tab-meta" data-i18n="d4.meta">День 4</span>
+      <span class="day-tab-title" data-i18n="d4.tab">Восстановление</span>
+    </button>
+    <button class="day-tab" role="tab" aria-selected="false" aria-controls="day-panel-5" onclick="switchDay(this,'day-panel-5')">
+      <span class="day-tab-meta" data-i18n="d5.meta">День 5</span>
+      <span class="day-tab-title" data-i18n="d5.tab">Возвращение</span>
+    </button>
+  </div>
+
+  <!-- Day panels -->
+  <div class="day-panels">
+
+    <div class="day-panel active" id="day-panel-1" role="tabpanel">
+      <div class="day-panel-inner">
+        <div class="day-panel-num">01</div>
+        <div class="day-panel-body" data-i18n-html="day1.body">
+          <div class="day-title" data-i18n="d1.title">Встречаемся в Тбилиси</div>
+          <ul class="day-flow">
+            <li>Встречаем все семьи в аэропорту и размещаем в Hilton Tbilisi — первый спокойный вечер после дороги.</li>
+            <li>Ужин и прогулка по Тбилиси для тех, кто уже в настроении. Дети знакомятся между собой.</li>
+            <li>Никакого форс-мажора с логистикой: трансфер и размещение организуем мы.</li>
+          </ul>
+          <div class="day-tags">
+            <span class="day-pill">встреча в аэропорту</span>
+            <span class="day-pill">Hilton Tbilisi</span>
+            <span class="day-pill">первый вечер</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" id="day-panel-2" role="tabpanel">
+      <div class="day-panel-inner">
+        <div class="day-panel-num">02</div>
+        <div class="day-panel-body" data-i18n-html="day2.body">
+          <div class="day-title" data-i18n="d2.title">Чекап, массаж — и едем в горы</div>
+          <ul class="day-flow">
+            <li>Утро: чекап в A-clinic — взрослые и дети по желанию (в клинике прекрасные педиатры). Параллельно — массажи в студии для тех, кто не на чекапе.</li>
+            <li>Дети в это время в парке Ваке с ведущим — прогулка, игры, зарядки. Если дождь — остаёмся в студии: фильмы, активности, своя программа.</li>
+            <li>После обеда — общий выезд на локацию. Двухчасовой маршрут с горными видами, которые запомнятся.</li>
+            <li>Вечер на базе: заселение, бассейн, первая зарядка с тренером, сауна и барбекю у костра.</li>
+          </ul>
+          <div class="day-tags">
+            <span class="day-pill">чекап A-clinic</span>
+            <span class="day-pill">массажи</span>
+            <span class="day-pill">парк Ваке</span>
+            <span class="day-pill">выезд на базу</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" id="day-panel-3" role="tabpanel">
+      <div class="day-panel-inner">
+        <div class="day-panel-num">03</div>
+        <div class="day-panel-body" data-i18n-html="day3.body">
+          <div class="day-title" data-i18n="d3.title">Тело и движение — день с мануальным терапевтом</div>
+          <ul class="day-flow">
+            <li>Утро: зарядка с тренером на краю каньона — взрослые и дети вместе. Потом неторопливый завтрак.</li>
+            <li>День: индивидуальные сессии с мануальным терапевтом (врач с высшим медицинским, хирург-педиатр) — осанка, зажимы, диагностика. Работает и со взрослыми, и с детьми.</li>
+            <li>Массажи по расписанию — каждый взрослый получает свой слот. Есть опция детского массажа: наши специалисты работают с детьми. Если массаж не нужен — это обсуждается на онлайн-консультации.</li>
+            <li>Вечер: off-road выезд или хайкинг к каньону всей группой. Костёр, гитара, настолки.</li>
+          </ul>
+          <div class="day-tags">
+            <span class="day-pill">зарядка</span>
+            <span class="day-pill">мануальный терапевт</span>
+            <span class="day-pill">массажи</span>
+            <span class="day-pill">off-road / хайкинг</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" id="day-panel-4" role="tabpanel">
+      <div class="day-panel-inner">
+        <div class="day-panel-num">04</div>
+        <div class="day-panel-body" data-i18n-html="day4.body">
+          <div class="day-title" data-i18n="d4.title">Восстановление и присутствие — день с телесным терапевтом</div>
+          <ul class="day-flow">
+            <li>Утро: зарядка, купание в бассейне. Завтрак в своём темпе.</li>
+            <li>День: практики с телесным терапевтом — групповые и индивидуальные сессии для взрослых и детей. Работа с напряжением, дыханием, контактом с собой и близкими.</li>
+            <li>Массажи по расписанию для всех взрослых. Детский массаж — по желанию, есть специалисты, которые работают с детьми.</li>
+            <li>После обеда: пикник у реки или свободное время на территории. Дети — с ведущим.</li>
+            <li>Вечер: сауна, бассейн, последний костёр. Пространство для разговора без спешки.</li>
+          </ul>
+          <div class="day-tags">
+            <span class="day-pill">телесный терапевт</span>
+            <span class="day-pill">массажи</span>
+            <span class="day-pill">пикник</span>
+            <span class="day-pill">последний костёр</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" id="day-panel-5" role="tabpanel">
+      <div class="day-panel-inner">
+        <div class="day-panel-num">05</div>
+        <div class="day-panel-body" data-i18n-html="day5.body">
+          <div class="day-title" data-i18n="d5.title">Возвращаемся в Тбилиси</div>
+          <ul class="day-flow">
+            <li>Неторопливое утро: зарядка, завтрак, последняя прогулка по территории над каньоном.</li>
+            <li>Неторопливые сборы — без спешки и суеты.</li>
+            <li>Трансфер обратно в Тбилиси. Для тех, у кого вечерний рейс, — дополнительное время в городе.</li>
+          </ul>
+          <div class="day-tags">
+            <span class="day-pill">зарядка</span>
+            <span class="day-pill">прогулка</span>
+            <span class="day-pill">трансфер в Тбилиси</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /day-panels -->
+</section>
+
+<section class="s">
+  <div class="rv sh">
+    <h2 class="sh-title"><span data-i18n="dates.title">Выбери</span> <em data-i18n="dates.title.em">дату для семейного отдыха</em></h2>
+  </div>
+  <div class="georgia-grid dates-cards-grid rv" data-i18n-html="dates.grid">
+    <div class="gc">
+      <div class="gc-h">22–26 мая</div>
+      <p class="gc-p">Основной майский заезд с полной программой и всеми активностями.</p>
+      <span class="gc-tag">основной заезд</span>
+      <a href="#form" class="stay-cta" style="margin-top:16px" data-i18n="nav.cta">Оставить заявку</a>
+    </div>
+    <div class="gc">
+      <div class="gc-h">5–9 июня</div>
+      <p class="gc-p">Июньский заезд для семей, которым удобнее стартовать в начале лета.</p>
+      <span class="gc-tag">начало лета</span>
+      <a href="#form" class="stay-cta" style="margin-top:16px">Оставить заявку</a>
+    </div>
+    <div class="gc">
+      <div class="gc-h">Июль</div>
+      <p class="gc-p">Открыта предзапись. Оставьте заявку, чтобы узнать даты первыми.</p>
+      <span class="gc-tag">предзапись</span>
+      <a href="#form" class="stay-cta" style="margin-top:16px">Оставить заявку</a>
+    </div>
+    <div class="gc">
+      <div class="gc-h">Август</div>
+      <p class="gc-p">Предзапись на летние даты для тех, кто планирует отпуск заранее.</p>
+      <span class="gc-tag">предзапись</span>
+      <a href="#form" class="stay-cta" style="margin-top:16px">Оставить заявку</a>
+    </div>
+  </div>
+</section>
+
+<!-- GEORGIA -->
+<section class="s">
+  <div class="rv sh">
+    <h2 class="sh-title"><span data-i18n="geo.title">Почему именно</span> <em>Грузия</em></h2>
+  </div>
+  <div class="georgia-grid rv" data-i18n-html="geo.grid">
+    <div class="gc">
+      <div class="gc-h">Природа</div>
+      <p class="gc-p">Горный воздух, каньоны, реки. Место, где дети видят мир без экрана, а взрослые наконец перестают думать о рабочей почте.</p>
+      <span class="gc-tag">горный воздух и тишина</span>
+    </div>
+    <div class="gc">
+      <div class="gc-h">Логистика</div>
+      <p class="gc-p">2 часа от Тбилиси. Прямые рейсы из Москвы, Минска, Алматы, Дубая. Нет языкового барьера для русскоязычного сообщества.</p>
+      <span class="gc-tag">удобный маршрут</span>
+    </div>
+    <div class="gc">
+      <div class="gc-h">Атмосфера</div>
+      <p class="gc-p">Кухня, гостеприимство, безопасность. Для семей с детьми это именно тот уровень комфорта, который позволяет по-настоящему расслабиться.</p>
+      <span class="gc-tag">семейный сервис</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ EDIS DACHA + ROOMS ═══ (metta light style) -->
+<section class="light-section" id="venues">
+  <div style="width:100%;max-width:none;margin:0">
+
+    <!-- Intro -->
+    <div class="dacha-intro rv">
+      <div class="dacha-intro-text">
+        <h2 class="dacha-name">Edis<br><em>Dacha</em></h2>
+        <p class="dacha-desc" data-i18n="dacha.desc">Кантри-стайл отель в горах Грузии — деревенский дух, все удобства и терраса прямо над каньоном. В двух часах от Тбилиси, максимум 20 человек — дети и взрослые. Своё, камерное, без посторонних.</p>
+        <div class="dacha-pills" data-i18n-html="dacha.pills">
+          <span class="dacha-pill">На краю каньона</span>
+          <span class="dacha-pill">Дом 1936 года</span>
+          <span class="dacha-pill">Бассейн</span>
+          <span class="dacha-pill">Сауна</span>
+          <span class="dacha-pill">Барбекю-зона</span>
+          <span class="dacha-pill">Терраса с видом</span>
+          <span class="dacha-pill">Горный воздух</span>
+          <span class="dacha-pill">Подходит для детей</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo gallery -->
+    <div class="dacha-gallery rv">
+      <img class="gimg-main" src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/retreat@main/Edis_Dacha/retreat-exterior-main-house-01.webp" alt="Edis Dacha — главный дом">
+      <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/retreat@main/Edis_Dacha/pool.webp" alt="Бассейн">
+      <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/retreat@main/Edis_Dacha/retreat-common-area-bar-wide-01.webp" alt="Бар и терраса">
+      <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/retreat@main/Edis_Dacha/retreat-exterior-overview-01.webp" alt="Вид на территорию">
+      <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/retreat@main/Edis_Dacha/retreat-room-loft-bright-01.webp" alt="Интерьер дома">
+    </div>
+
+    <div class="dacha-card full-bleed rv d2">
+      <div class="dacha-card-label" data-i18n="dacha.why">Почему здесь удобно семьям</div>
+      <div class="dacha-stat-row" data-i18n-html="dacha.stats">
+        <div class="dacha-stat">
+          <div class="dacha-stat-val">Камерная поездка</div>
+          <div class="dacha-stat-lbl">16–20 человек: дети и взрослые, без ощущения лагеря на большую толпу.</div>
+        </div>
+        <div class="dacha-stat">
+          <div class="dacha-stat-val">Дети под присмотром</div>
+          <div class="dacha-stat-lbl">Ведущий-вожатый и команда, которая умеет работать с детьми и правда любит это делать.</div>
+        </div>
+        <div class="dacha-stat">
+          <div class="dacha-stat-val">Взрослые тоже отдыхают</div>
+          <div class="dacha-stat-lbl">Пока дети заняты, у родителей есть время на массажи, специалистов, сауну и просто выдохнуть.</div>
+        </div>
+        <div class="dacha-stat">
+          <div class="dacha-stat-val">Все продумано под ключ</div>
+          <div class="dacha-stat-lbl">Проживание, питание, программа и ритм поездки собраны так, чтобы вам не пришлось ничего организовывать на месте.</div>
+        </div>
+      </div>
+      <div class="dacha-note" data-i18n="dacha.note">Это формат семейного отдыха, где комфортно и детям, и взрослым: камерно, спокойно и с понятной организацией на каждом этапе.</div>
+    </div>
+
+    <!-- Room section -->
+    <div class="rv">
+      <div class="sh sh-row" style="margin-bottom:28px">
+        <div class="sh-left">
+          <h3 class="sh-title" style="font-size:clamp(26px,3.5vw,38px)"><span data-i18n="rooms.title">Выберите</span> <em data-i18n="rooms.title.em">свой номер</em></h3>
+        </div>
+        <div class="sec-arrows">
+          <button class="sec-arrow" onclick="scrollSection('stayScroll',-1)" aria-label="Предыдущий">←</button>
+          <button class="sec-arrow" onclick="scrollSection('stayScroll',1)" aria-label="Следующий">→</button>
+        </div>
+      </div>
+      <div class="stay-grid-wrap"><div class="stay-grid" id="stayScroll">
+        <div class="dc stay-card wide rv d1">
+          <div class="stay-thumb">
+            <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/phystech/assets/panorama_1.webp" alt="Panorama">
+          </div>
+          <div class="stay-top">
+            <div>
+              <div class="dc-d">Panorama</div>
+              <div class="dc-v" data-i18n="room1.sub">2 одинаковых номера · лучшее расположение</div>
+            </div>
+            <div>
+              <div class="stay-price">1 650 $</div>
+              <div class="stay-subprice">с человека</div>
+              <div class="stay-subprice"><strong>3 300 $ за весь номер</strong><br><strong>при 2 гостях</strong></div>
+            </div>
+          </div>
+          <div class="stay-meta" data-i18n="room1.meta">До 2 гостей · отдельное здание</div>
+          <ul class="dc-list" data-i18n-html="room1.list">
+            <li>Отдельное здание с лучшим видом на горы.</li>
+            <li>Собственная ванная комната в каждом номере.</li>
+            <li>Два номера рядом удобно брать двум семьям, которые едут вместе.</li>
+          </ul>
+          <div class="stay-note" data-i18n="room.note">В стоимость включено: проживание, питание, 3 массажа, мануальный терапевт и вся программа. Не включены чекап, off-road и трансфер до отеля в Тбилиси (Hilton).</div>
+          <a href="#form" class="stay-cta" data-i18n="rooms.choose">Выбрать номер →</a>
+        </div>
+
+        <div class="dc stay-card peach rv d2">
+          <div class="stay-thumb">
+            <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/phystech/assets/old_money_double_king_1.webp" alt="HOUSE 1936 Double King">
+          </div>
+          <div class="stay-top">
+            <div>
+              <div class="dc-d">HOUSE 1936 Double King</div>
+              <div class="dc-v" data-i18n="room2.sub">семейный номер</div>
+            </div>
+            <div>
+              <div class="stay-price">1 360 $</div>
+              <div class="stay-subprice">с человека при 3 гостях</div>
+              <div class="stay-subprice"><strong>4 080 $ за весь номер</strong><br><strong>при 3 гостях</strong></div>
+            </div>
+          </div>
+          <div class="stay-meta" data-i18n="room2.meta">До 4 гостей · семейный формат</div>
+          <ul class="dc-list compact" data-i18n-html="room2.list">
+            <li>Подходит для семьи с одним или двумя детьми.</li>
+            <li>Двухъярусная планировка: большая кровать для родителей и отдельные спальные места для детей.</li>
+            <li>Отдельный санузел и собственный балкон.</li>
+            <li>Если нужен 4-й гость, доплата составит 1 023 $ только за программу.</li>
+          </ul>
+          <div class="stay-note" data-i18n="room.note">В стоимость включено: проживание, питание, 3 массажа, мануальный терапевт и вся программа. Не включены чекап, off-road и трансфер до отеля в Тбилиси (Hilton).</div>
+          <a href="#form" class="stay-cta" data-i18n="rooms.choose">Выбрать номер →</a>
+        </div>
+
+        <div class="dc stay-card pink rv d3">
+          <div class="stay-thumb">
+            <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/phystech/assets/old_money_twin.webp" alt="HOUSE 1936 Twin">
+          </div>
+          <div class="stay-top">
+            <div>
+              <div class="dc-d">HOUSE 1936 Twin</div>
+              <div class="dc-v" data-i18n="room3.sub">twin room</div>
+            </div>
+            <div>
+              <div class="stay-price">1 420 $</div>
+              <div class="stay-subprice">с человека</div>
+              <div class="stay-subprice"><strong>2 840 $ за весь номер</strong><br><strong>при 2 гостях</strong></div>
+            </div>
+          </div>
+          <div class="stay-meta" data-i18n="room3.meta">До 2 гостей · twin beds</div>
+          <ul class="dc-list compact" data-i18n-html="room3.list">
+            <li>Две отдельные кровати.</li>
+            <li>Отличный номер для одного взрослого и ребёнка или для взрослых детей.</li>
+            <li>Полноценный санузел и балкон с видом.</li>
+          </ul>
+          <div class="stay-note" data-i18n="room.note">В стоимость включено: проживание, питание, 3 массажа, мануальный терапевт и вся программа. Не включены чекап, off-road и трансфер до отеля в Тбилиси (Hilton).</div>
+          <a href="#form" class="stay-cta" data-i18n="rooms.choose">Выбрать номер →</a>
+        </div>
+
+        <div class="dc stay-card lav rv d2">
+          <div class="stay-thumb">
+            <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/phystech/assets/old_money_king_1.webp" alt="Фото номера HOUSE 1936 King">
+          </div>
+          <div class="stay-top">
+            <div>
+              <div class="dc-d">HOUSE 1936 King</div>
+              <div class="dc-v" data-i18n="room4.sub">king room</div>
+            </div>
+            <div>
+              <div class="stay-price">1 420 $</div>
+              <div class="stay-subprice">с человека</div>
+              <div class="stay-subprice"><strong>2 840 $ за весь номер</strong><br><strong>при 2 гостях</strong></div>
+            </div>
+          </div>
+          <div class="stay-meta" data-i18n="room4.meta">До 2 гостей · king bed</div>
+          <ul class="dc-list compact" data-i18n-html="room4.list">
+            <li>Большая двуспальная кровать для родителей.</li>
+            <li>На этом же этаже рядом есть HOUSE 1936 Twin, где можно разместить детей.</li>
+            <li>Санузел и балкон в комплекте.</li>
+          </ul>
+          <div class="stay-note" data-i18n="room.note">В стоимость включено: проживание, питание, 3 массажа, мануальный терапевт и вся программа. Не включены чекап, off-road и трансфер до отеля в Тбилиси (Hilton).</div>
+          <a href="#form" class="stay-cta" data-i18n="rooms.choose">Выбрать номер →</a>
+        </div>
+
+        <div class="dc stay-card rv d3">
+          <div class="stay-thumb">
+            <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/phystech/assets/standart.webp" alt="Standard Twin">
+          </div>
+          <div class="stay-top">
+            <div>
+              <div class="dc-d">Standard Twin</div>
+              <div class="dc-v" data-i18n="room5.sub">новый дом · twin room</div>
+            </div>
+            <div>
+              <div class="stay-price">1 380 $</div>
+              <div class="stay-subprice">с человека</div>
+              <div class="stay-subprice"><strong>2 760 $ за весь номер</strong><br><strong>при 2 гостях</strong></div>
+            </div>
+          </div>
+          <div class="stay-meta" data-i18n="room5.meta">До 2 гостей · спокойный формат</div>
+          <ul class="dc-list compact" data-i18n-html="room5.list">
+            <li>Номер в новом здании рядом с основными активностями.</li>
+            <li>Две отдельные кровати.</li>
+            <li>Подойдёт для детей или для родителей.</li>
+            <li>Можно взять 2 номера Standard Twin, и вся семья будет рядом.</li>
+          </ul>
+          <div class="stay-note" data-i18n="room.note">В стоимость включено: проживание, питание, 3 массажа, мануальный терапевт и вся программа. Не включены чекап, off-road и трансфер до отеля в Тбилиси (Hilton).</div>
+          <a href="#form" class="stay-cta" data-i18n="rooms.choose">Выбрать номер →</a>
+        </div>
+      </div></div><!-- /stay-grid-wrap -->
+    </div>
+
+  </div>
+</section>
+<!-- /EDIS DACHA -->
+
+<!-- CHECKUP -->
+<section class="s" id="dates">
+  <div class="rv sh">
+    <h2 class="sh-title"><span data-i18n="checkup.title">Чекап в</span> <em>A-clinic</em></h2>
+    <p class="sh-desc" data-i18n="checkup.desc">Дополнительная опция — 180 $ / чел. Врачи говорят по-русски и по-английски. За доказательную медицину, ничего лишнего не навязывают. Базовый пакет можно расширить после онлайн-консультации. Есть педиатры — детям тоже можно.</p>
+  </div>
+  <div class="dates-grid">
+    <div class="dc hot wide rv d1">
+      <div class="checkup-head">
+        <div class="checkup-brand">
+          <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/phystech/assets/aclinic_logo.webp" alt="A-clinic" class="checkup-logo">
+          <a href="https://a-clinic.ge/ru" target="_blank" rel="noreferrer" class="checkup-link" data-i18n="checkup.site">Сайт клиники →</a>
+        </div>
+        <div class="checkup-price">
+          <div class="checkup-price-label" data-i18n="checkup.price.label">Стоимость</div>
+          <div class="checkup-price-value">180 $</div>
+        </div>
+      </div>
+      <div class="dc-d" data-i18n="checkup.included">Что входит</div>
+      <ul class="dc-list" data-i18n-html="checkup.list">
+        <li>2 консультации терапевта по 30 минут: первая до приезда онлайн, вторая по итогам.</li>
+        <li>Клинический анализ крови: CBC + WBC differential + ESR.</li>
+        <li>Липидный профиль: total cholesterol, HDL, LDL, triglycerides.</li>
+        <li>Гликированный гемоглобин: HbA1c.</li>
+      </ul>
+    </div>
+    <div class="dc rv d2">
+      <div class="dc-d" data-i18n="checkup.how">Как это работает</div>
+      <div class="dc-v" data-i18n="checkup.two">два разговора с терапевтом</div>
+      <div class="dc-dur" data-i18n="checkup.before">До поездки: онлайн-консультация, сбор анамнеза, оценка рисков. Здесь же решаете, нужно ли расширить пакет по показаниям.</div>
+      <div class="dc-dl" data-i18n="checkup.online">30 минут · онлайн</div>
+      <div class="dc-dur" data-i18n="checkup.after">После анализов: разбор результатов, рекомендации, при необходимости — направление к профильному специалисту.</div>
+      <div class="dc-dl" data-i18n="checkup.dl2">30 минут · онлайн или очно</div>
+    </div>
+    <div class="dc rv d3">
+      <div class="dc-d" data-i18n="checkup.why">Почему это удобно</div>
+      <div class="dc-v" data-i18n="checkup.sub3">встроено в поездку, без стресса</div>
+      <ul class="dc-list" data-i18n-html="checkup.list3">
+        <li>Видит скрытую анемию, воспалительные изменения и сердечно-сосудистые риски.</li>
+        <li>Педиатры в клинике — детям тоже можно пройти обследование.</li>
+        <li>Врачи говорят по-русски и по-английски, за доказательную медицину.</li>
+        <li>Ничего лишнего не навязывают — но при необходимости помогут расширить пакет.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- THREE LAYERS -->
+<section class="s" id="programs">
+  <div class="rv sh">
+    <h2 class="sh-title"><span data-i18n="layers.title">Пять дней — три</span> <em data-i18n="layers.title.em">направления</em></h2>
+  </div>
+  <div class="prog-grid rv">
+    <div class="pg" data-i18n-html="prog1.block">
+      <div class="pg-tag">Движение</div>
+      <div class="pg-h">Тело в ритме</div>
+      <p class="pg-p">Каждое утро начинается с зарядки у каньона. Тренер выстраивает нагрузку под состояние — не армейский режим, а живое движение для взрослых и детей вместе.</p>
+      <ul class="pg-ul"><li>Ежедневная утренняя зарядка с тренером</li><li>Хайкинг по горным маршрутам</li><li>Бассейн и время у воды</li><li>Off-road по желанию — отдельная опция</li></ul>
+      <div class="pg-pills"><span class="ppill">Тренер</span><span class="ppill">Зарядка</span><span class="ppill">Хайкинг</span><span class="ppill">Бассейн</span></div>
+    </div>
+    <div class="pg" data-i18n-html="prog2.block">
+      <div class="pg-tag">Здоровье</div>
+      <div class="pg-h">Тело и специалисты</div>
+      <p class="pg-p">Два специалиста с медицинским образованием работают с каждым участником — взрослым и ребёнком. Мануальный терапевт — осанка и зажимы. Телесный терапевт — напряжение и контакт с собой.</p>
+      <ul class="pg-ul"><li>Мануальный терапевт — диагностика и работа с осанкой</li><li>Телесный терапевт — практики для всей семьи</li><li>3 массажа для каждого взрослого</li><li>Практики и сессии встроены в общую программу</li></ul>
+      <div class="pg-pills"><span class="ppill">Мануальный терапевт</span><span class="ppill">Телесный терапевт</span><span class="ppill">Массаж</span><span class="ppill">Дети</span></div>
+    </div>
+    <div class="pg" data-i18n-html="prog3.block">
+      <div class="pg-tag">Отдых</div>
+      <div class="pg-h">Вместе и каждый по-своему</div>
+      <p class="pg-p">Ведущий, который умеет работать с детьми, освобождает родителям время. Вечера — общие: костёр, ужины, разговоры без спешки. Дети дружат, взрослые выдыхают.</p>
+      <ul class="pg-ul"><li>Ведущий-вожатый для детей каждый день</li><li>Общие ужины и барбекю у костра</li><li>Сауна и вечерний бассейн</li><li>Пикники и выезды в горы</li></ul>
+      <div class="pg-pills"><span class="ppill">Ведущий</span><span class="ppill">Костёр</span><span class="ppill">Сауна</span><span class="ppill">Пикник</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT/WHAT'S INCLUDED -->
+<section class="s" id="impact">
+  <div class="rv sh">
+    <h2 class="sh-title"><span data-i18n="included.title">Что входит в</span> <em data-i18n="included.title.em">программу</em></h2>
+    <p class="sh-desc" data-i18n="included.desc">Семейный заезд — это не тур «à la carte». Большую часть мы организовываем под ключ, чтобы вы просто приехали и отдыхали.</p>
+  </div>
+  <div class="offer-grid rv">
+    <div class="offer-card d1">
+      <div class="offer-title" data-i18n="included.in">Что входит</div>
+      <ul class="offer-list" data-i18n-html="incl.list1">
+        <li>Трансферы по маршруту Тбилиси — Edis Dacha — Тбилиси и все выезды по программе.</li>
+        <li>Питание на протяжении всей поездки: завтраки, обеды, ужины и барбекю по сценарию.</li>
+        <li>Программа по дням: зарядки, хайкинг, пикники, вечерние активности.</li>
+        <li>3 массажа для каждого взрослого на локации.</li>
+        <li>Сессии с мануальным и телесным терапевтом для взрослых и детей.</li>
+        <li>Сауна, бассейн и доступ ко всем общим пространствам отеля.</li>
+        <li>Ведущий-вожатый для детей каждый день — включая время взрослых сессий.</li>
+        <li>Организационная часть: мы берём на себя логистику.</li>
+      </ul>
+    </div>
+    <div class="offer-card d2">
+      <div class="offer-title" data-i18n="included.extra">Дополнительные опции</div>
+      <ul class="offer-list" data-i18n-html="incl.list2">
+        <li>Чекап в A-clinic — 180 $ / человек. Взрослые и дети. Можно расширить после онлайн-консультации с врачом.</li>
+        <li>Off-road тур — 130 $ / человек. По желанию, не обязательно.</li>
+        <li>Трансфер от аэропорта до Тбилиси и из Тбилиси в аэропорт не включён, но мы можем помочь с информацией или заказать трансфер.</li>
+        <li>Перелёт до Тбилиси и личные расходы в городе — самостоятельно.</li>
+        <li>Медицинская страховка на период поездки — самостоятельно.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="s" id="team">
+  <div class="rv sh sh-row">
+    <div class="sh-left">
+      <h2 class="sh-title"><span data-i18n="team.title">Кто едет</span> <em data-i18n="team.title.em">с нами</em></h2>
+    </div>
+    <div class="sec-arrows">
+      <button class="sec-arrow" onclick="scrollSection('teamScroll',-1)" aria-label="Предыдущий">←</button>
+      <button class="sec-arrow" onclick="scrollSection('teamScroll',1)" aria-label="Следующий">→</button>
+    </div>
+  </div>
+  <!-- ORGANIZER BLOCK -->
+  <div class="organizer-block rv d1">
+    <div class="organizer-photo-wrap">
+      <img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/photo/team/Anastasia-Kalashnikova.webp" alt="Анастасия Калашникова — Организатор" loading="lazy" class="organizer-photo">
+    </div>
+    <div class="organizer-info">
+      <div class="organizer-badge" data-i18n="org.badge">Организатор заезда</div>
+      <div class="organizer-name">Анастасия Калашникова</div>
+      <div class="organizer-role" data-i18n="org.role">Массажист · Велнес-инструктор · Тренер</div>
+      <div class="organizer-bio">
+        <p data-i18n="org.bio1">Анастасия — массажист и велнес-специалист с опытом в образовании, коммуникации и клиентском сервисе. Она придумала и организует этот заезд, чтобы каждый участник смог по-настоящему восстановить силы в горах Грузии.</p>
+        <p data-i18n="org.bio2">Проводит практики по расслаблению, работе с телесным напряжением и стрессом. Создаёт безопасную и поддерживающую атмосферу — для взрослых и детей.</p>
+      </div>
+      <div class="organizer-tags" data-i18n-html="org.tags">
+        <span class="organizer-tag">Массаж и телесные практики</span>
+        <span class="organizer-tag">Расслабление и восстановление</span>
+        <span class="organizer-tag">Групповая фасилитация</span>
+        <span class="organizer-tag">Работа с детьми и взрослыми</span>
+        <span class="organizer-tag">Английский язык</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="team-scroll-wrap"><div class="team-scroll" id="teamScroll">
+    <div class="tc"><img class="team-photo-close" src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/photo/team/Dima-Chernak.jpg" alt="Дима Чернак — Ведущий-вожатый" loading="lazy"><div class="tc-bd"><div class="tc-name">Дима Чернак</div><div class="tc-role" data-i18n="role.dima">Ведущий-вожатый</div><div class="tc-bio" data-i18n="bio.dima">Детская программа, дружелюбная атмосфера</div></div></div>
+    <div class="tc"><img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/photo/team/Nikolai-Dadygin.webp" alt="Николай Дадыгин — Врач, мануальный терапевт" loading="lazy"><div class="tc-bd"><div class="tc-name">Николай Дадыгин</div><div class="tc-role" data-i18n="role.nikolai">Врач · Мануальный терапевт</div><div class="tc-bio" data-i18n="bio.nikolai">Диагностика, причины, а не симптомы</div></div></div>
+    <div class="tc"><img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/photo/team/Nata-Solnechnaya.webp" alt="Ната Солнечная — Телесный терапевт" loading="lazy"><div class="tc-bd"><div class="tc-name">Ната Солнечная</div><div class="tc-role" data-i18n="role.nata">Телесный терапевт</div><div class="tc-bio" data-i18n="bio.nata">Тело, эмоции, внутреннее состояние</div></div></div>
+    <div class="tc"><img src="https://updatestudiotbilisi-hash.github.io/update-club-site/photo/team/Amalia-Ghazaryan.webp" alt="Амалия Газарян — Массажист" loading="lazy"><div class="tc-bd"><div class="tc-name">Амалия Газарян</div><div class="tc-role" data-i18n="role.masseur">Массажист</div><div class="tc-bio" data-i18n="bio.amalia">Медобразование. Лимфодренаж, миофасциальный</div></div></div>
+    <div class="tc"><img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@1210db25a0976ad5de3c1ada61aeafd63ad0918d/photo/team/anton-3.webp" alt="Антон Бакуров — Массажист, тренер" loading="lazy"><div class="tc-bd"><div class="tc-name">Антон Бакуров</div><div class="tc-role" data-i18n="role.anton">Массажист · Тренер</div><div class="tc-bio" data-i18n="bio.anton">Мягкие техники, глубокое расслабление</div></div></div>
+    <div class="tc"><img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/photo/team/Ruslan-Jijelava.webp" alt="Руслан Джижелава — Массажист" loading="lazy"><div class="tc-bd"><div class="tc-name">Руслан Джижелава</div><div class="tc-role" data-i18n="role.masseur">Массажист</div><div class="tc-bio" data-i18n="bio.ruslan">Индивидуальный подход и доверие</div></div></div>
+    <div class="tc"><img src="https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/update-club-site@main/photo/team/Ia-Darakhvelidze.webp" alt="Ия Дарахвелидзе — Массажист, пассивная гимнастика" loading="lazy"><div class="tc-bd"><div class="tc-name">Ия Дарахвелидзе</div><div class="tc-role" data-i18n="role.ia">Массажист · Пасс. гимнастика</div><div class="tc-bio" data-i18n="bio.ia">Мягко, с опорой на состояние в моменте</div></div></div>
+  </div></div><!-- /team-scroll-wrap -->
+</section>
+
+<!-- FAQ -->
+<section class="s" id="faq">
+  <div class="faq-grid">
+    <div class="sh sh-row rv">
+      <div class="sh-left">
+        <h2 class="sh-title"><span data-i18n="faq.title">Частые</span><br><em data-i18n="faq.title.em">вопросы</em></h2>
+      </div>
+      <a href="#form" class="btn btn-s" style="display:inline-flex;align-self:flex-end;flex-shrink:0" data-i18n="faq.ask">Задать вопрос →</a>
+    </div>
+    <div class="flist rv d1" data-i18n-html="faq.list">
+      <div class="fi open"><div class="fq" role="button" tabindex="0" aria-expanded="true" onclick="tf(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();tf(this)}">Кто может поехать?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Семейный заезд: пары с детьми, семьи с подростками, друзья семьями. Можно ехать и без детей — программа комфортна для всех.</div></div>
+      <div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();tf(this)}">С какого возраста можно брать детей?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Берите с любого возраста. Для детей до 12 лет уточните условия при подаче заявки.</div></div>
+      <div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();tf(this)}">Что с детьми во время массажей?<span class="farr" aria-hidden="true">+</span></div><div class="fa">На время взрослых активностей с детьми будет аниматор. Безопасно и весело.</div></div>
+      <div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();tf(this)}">Где это и как добираться?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Edis Dacha — кантри-стайл отель на краю каньона, в двух часах от Тбилиси. Трансфер от аэропорта до Тбилиси и обратно не включён, но мы подскажем удобный вариант или поможем его заказать.</div></div>
+      <div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();tf(this)}">Есть ли бассейн и сауна?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Да. Бассейн и сауна встроены в программу — никаких доплат. Также барбекю-зона и общие пространства.</div></div>
+      <div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();tf(this)}">Что такое off-road и обязательно ли участвовать?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Off-road — это выезд по горным дорогам, каждый может попробовать себя за рулём. Это дополнительная опция за 130 $ — по желанию, не обязательно.</div></div>
+      <div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();tf(this)}">Как оставить заявку?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Заполните форму ниже. Максимум группа — 20 человек, включая детей и взрослых, поэтому лучше не откладывать.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW + FORM -->
+<section class="s" id="how">
+  <div class="rv sh">
+    <h2 class="sh-title"><span data-i18n="how.title">Четыре шага до</span> <em data-i18n="how.title.em">выезда</em></h2>
+    <p class="sh-desc" data-i18n="how.desc">Всё просто. Оставляете контакт — мы берём на себя логистику и организацию.</p>
+  </div>
+  <div class="how-form-wrap">
+    <div class="how-steps-compact rv">
+      <div class="hwc rv d1">
+        <div class="hwc-num">1</div>
+        <div><div class="hwc-h" data-i18n="how.s1">Оставляете заявку</div><div class="hwc-d" data-i18n="how.d1">Пишете имя, Telegram и пару слов о своей семье или компании.</div></div>
+      </div>
+      <div class="hwc rv d2">
+        <div class="hwc-num">2</div>
+        <div><div class="hwc-h" data-i18n="how.s2">Получаете детали</div><div class="hwc-d" data-i18n="how.d2">Высылаем стоимость, логистику, бытовые детали и отвечаем на вопросы.</div></div>
+      </div>
+      <div class="hwc rv d3">
+        <div class="hwc-num">3</div>
+        <div><div class="hwc-h" data-i18n="how.s3">Фиксируете участие</div><div class="hwc-d" data-i18n="how.d3">Подтверждаем состав, выбираете номер, согласовываем детали для детей.</div></div>
+      </div>
+      <div class="hwc rv d4">
+        <div class="hwc-num">4</div>
+        <div><div class="hwc-h" data-i18n="how.s4">Встречаемся в выбранные даты</div><div class="hwc-d" data-i18n="how.d4">Прилетаете в Тбилиси — и начинается настоящий семейный отдых.</div></div>
+      </div>
+    </div>
+    <div id="form">
+      <form class="fbox glass rv d2" id="retreatLeadForm">
+        <h3 data-i18n="form.title">Забронировать место</h3>
+        <div class="fg"><label class="fl" for="lead_name" data-i18n="form.name">Имя</label><input id="lead_name" name="name" type="text" class="fi2" placeholder="Как к вам обращаться" required></div>
+        <div class="fg"><label class="fl" for="lead_contact" data-i18n="form.contact">Telegram или Email</label><input id="lead_contact" name="contact" type="text" class="fi2" placeholder="@username или email@..." required></div>
+        <div class="fg"><label class="fl" for="lead_group_size" data-i18n="form.group">Состав</label>
+          <select id="lead_group_size" name="group_size" class="fi2" required data-i18n-html="form.group.opts">
+            <option value="">Выберите...</option>
+            <option>Едем вдвоём (пара)</option>
+            <option>1 родитель с детьми</option>
+            <option>Семья с 1 ребёнком</option>
+            <option>Семья с 2+ детьми</option>
+            <option>Две семьи вместе</option>
+            <option>Компания друзей (без детей)</option>
+          </select>
+        </div>
+        <div class="fg"><label class="fl" for="lead_format" data-i18n="form.format">Что важно сейчас</label>
+          <select id="lead_format" name="format" class="fi2" required data-i18n-html="form.format.opts">
+            <option value="">Выберите...</option>
+            <option>Хочу поехать в один из ближайших заездов</option>
+            <option>Хочу сначала понять стоимость</option>
+            <option>Нужна логистика и бытовые детали</option>
+            <option>Интересно, если будет следующий заезд</option>
+            <option>Хочу просто задать вопрос</option>
+          </select>
+        </div>
+        <div class="fg"><label class="fl" for="lead_location" data-i18n="form.dates">Даты</label><select id="lead_location" name="location" class="fi2" data-i18n-html="form.dates.opts"><option>22–26 мая</option><option>5–9 июня</option><option>Предзапись на июль</option><option>Предзапись на август</option></select></div>
+        <div class="fg"><label class="fl" for="lead_room" data-i18n="form.room">Какой номер интересует</label>
+          <select id="lead_room" name="room" class="fi2" data-i18n-html="form.room.opts">
+            <option value="">Выберите...</option>
+            <option>Panorama — 3 300 $ за номер / 1 650 $ с человека</option>
+            <option>HOUSE 1936 Double King — 4 080 $ за номер / 1 360 $ с человека</option>
+            <option>HOUSE 1936 Twin — 2 840 $ за номер / 1 420 $ с человека</option>
+            <option>HOUSE 1936 King — 2 840 $ за номер / 1 420 $ с человека</option>
+            <option>Standard Twin — 2 760 $ за номер / 1 380 $ с человека</option>
+            <option>Ещё не определился(лась)</option>
+          </select>
+        </div>
+        <div class="fg"><label class="fl" for="lead_adult_massage" data-i18n="form.massage">Массаж для взрослых и детей</label>
+          <select id="lead_adult_massage" name="adult_massage" class="fi2" data-i18n-html="form.massage.opts">
+            <option value="">Выберите...</option>
+            <option>Нужен массаж для взрослых</option>
+            <option>Нужен массаж для взрослых и детей</option>
+            <option>Массаж не нужен</option>
+            <option>Обсудим на консультации</option>
+          </select>
+        </div>
+        <div class="fg"><label class="fl" for="lead_comment" data-i18n="form.comment">Комментарий</label><textarea id="lead_comment" name="comment" class="fi2" placeholder="Возраст детей, пожелания по номеру, вопросы..."></textarea></div>
+        <button type="submit" class="fsub" id="leadSubmitBtn" data-i18n="form.submit">Отправить заявку →</button>
+        <p class="fn" id="leadFormStatus" data-i18n="form.status">Напишем лично и пришлём все детали по стоимости и логистике.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="ftop">
+    <div class="fbrand">
+      <a href="https://update-club.com" target="_blank" class="flog">ALTO RETREAT</a>
+      <span class="flog-sub" data-i18n="footer.sub">Alto Retreat · Семейный тур</span>
+      <p class="fbp" data-i18n="footer.desc">Семейные заезды для семей с детьми и близких компаний. Горы Грузии, Edis Dacha, правильный баланс активностей и отдыха.</p>
+      
+    </div>
+    <div class="fcol"><h4 data-i18n="footer.nav">Навигация</h4><ul><li><a href="#activities" data-i18n="mob.trip">Как проходит заезд</a></li><li><a href="#venues" data-i18n="mob.rooms">Отель и номера</a></li><li><a href="#programs" data-i18n="mob.program">Программа отдыха</a></li><li><a href="#dates" data-i18n="mob.checkup">Чекап в A-clinic</a></li><li><a href="#faq" data-i18n="mob.faq">Частые вопросы</a></li></ul></div>
+    <div class="fcol"><h4 data-i18n="footer.about">О поездке</h4><ul><li><a href="#team" data-i18n="nav.team">Команда</a></li><li><a href="#impact" data-i18n="footer.impact">Что входит в программу</a></li><li><a href="#form" data-i18n="nav.cta">Оставить заявку</a></li></ul></div>
+    <div class="fcol"><h4 data-i18n="footer.contacts">Контакты</h4><ul><li><a href="https://t.me/update_retreat_bot" target="_blank">Telegram</a></li></ul></div>
+  </div>
+  <div class="fbot"><span>© 2026 Alto Retreat · Tbilisi, Georgia</span><span data-i18n="footer.season">Edis Dacha Retreat · сезон 2026</span></div>
+</footer>
+</div>
+
+<script>
+/* ── BACKGROUND ── */
+const BGSRCS=['https://cdn.jsdelivr.net/gh/updatestudiotbilisi-hash/retreat@a79f046353fd2872719eba7840b7d8c442b6f360/background/background-small.webp'];
+(function loadBG(idx){
+  if(idx>=BGSRCS.length)return;
+  const img=new Image();img.crossOrigin='anonymous';
+  img.onload=function(){
+    const el=document.getElementById('scene');
+    el.style.backgroundImage='url('+BGSRCS[idx]+')';el.style.opacity='1';
+  };
+  img.onerror=function(){loadBG(idx+1)};
+  img.src=BGSRCS[idx];
+})(0);
+
+/* ── DAY TABS ── */
+function switchDay(btn, panelId){
+  document.querySelectorAll('.day-tab').forEach(t=>{
+    t.classList.remove('active');
+    t.setAttribute('aria-selected','false');
+  });
+  document.querySelectorAll('.day-panel').forEach(p=>p.classList.remove('active'));
+  btn.classList.add('active');
+  btn.setAttribute('aria-selected','true');
+  var panel=document.getElementById(panelId);
+  if(panel)panel.classList.add('active');
+}
+
+/* ── FAQ ── */
+function tf(el){
+  const it=el.parentElement;
+  const isOpen=it.classList.contains('open');
+  document.querySelectorAll('.fi').forEach(i=>{
+    if(i!==it){
+      i.classList.remove('open');
+      const btn=i.querySelector('.fq');
+      if(btn)btn.setAttribute('aria-expanded','false');
+    }
+  });
+  it.classList.toggle('open',!isOpen);
+  el.setAttribute('aria-expanded',String(!isOpen));
+}
+
+/* ── ROOM TABS ── */
+function switchTab(btn, panelId) {
+  document.querySelectorAll('.room-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.room-panel').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  const panel = document.getElementById(panelId);
+  if (panel) panel.classList.add('active');
+}
+
+/* ── MOBILE MENU ── */
+function toggleMenu(){
+  const m=document.getElementById('mobMenu');
+  const b=document.querySelector('.burger');
+  m.classList.toggle('open');
+  b.classList.toggle('open');
+  document.body.style.overflow=m.classList.contains('open')?'hidden':'';
+}
+
+/* ── SCROLL SECTION ARROWS ── */
+function scrollSection(id, dir) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const card = el.querySelector('[class*="card"], [class*="tc"]');
+  const step = card ? card.offsetWidth + 16 : 340;
+  el.scrollBy({ left: dir * step, behavior: 'smooth' });
+}
+
+/* ── REVEAL ── */
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('on')}),{threshold:.06});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+
+/* ── FORM ── */
+const FORM_ENDPOINT="https://script.google.com/macros/s/AKfycbwfyP5wu-CzIUWmLBNSqiF3yXqWpqpNuOGrFCZtSPxg5ikTYbvyoybl2bSbvLS7KkjbeA/exec";
+(function(){
+  const form=document.getElementById("retreatLeadForm");
+  const submitBtn=document.getElementById("leadSubmitBtn");
+  const statusBox=document.getElementById("leadFormStatus");
+  if(!form||!submitBtn||!statusBox)return;
+  form.addEventListener("submit",async function(event){
+    event.preventDefault();
+    const formData=new FormData(form);
+    const payload=new URLSearchParams();
+    payload.append("date",new Date().toLocaleString("ru-RU"));
+    payload.append("name",formData.get("name")||"");
+    payload.append("company",formData.get("company")||"");
+    payload.append("contact",formData.get("contact")||"");
+    payload.append("group_size",formData.get("group_size")||"");
+    payload.append("format",formData.get("format")||"");
+    payload.append("location",formData.get("location")||"");
+    payload.append("room",formData.get("room")||"");
+    payload.append("kids_massage",formData.get("kids_massage")||"");
+    payload.append("adult_massage",formData.get("adult_massage")||"");
+    payload.append("comment",formData.get("comment")||"");
+    payload.append("page",window.location.href);
+    payload.append("source","FAMILY RETREAT");
+    payload.append("submitted_at",new Date().toISOString());
+    submitBtn.disabled=true;
+    submitBtn.textContent="Отправляем...";
+    statusBox.textContent="Отправляем заявку...";
+    statusBox.style.color="rgba(255,255,255,.72)";
+    try{
+      const response=await fetch(FORM_ENDPOINT,{
+        method:"POST",
+        headers:{"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"},
+        body:payload.toString()
+      });
+      const text=await response.text();
+      if(!response.ok)throw new Error(text||"Ошибка отправки");
+      if(typeof fbq==="function")fbq('track','Lead');
+      statusBox.textContent="Спасибо! Заявка отправлена. Свяжемся с вами в ближайшее время.";
+      statusBox.style.color="#7bb5ff";
+      form.reset();
+    }catch(error){
+      statusBox.textContent="Не удалось отправить. Попробуйте ещё раз или напишите нам в Telegram.";
+      statusBox.style.color="rgba(255,100,100,.9)";
+      submitBtn.disabled=false;
+      submitBtn.textContent="Попробовать снова →";
+    }
+  });
+})();
+
+/* ── i18n TRANSLATIONS ── */
+const I18N = {
+  ru: {
+    skip:'Перейти к содержимому',
+    'nav.sub':'Family Mountain Escape · 2026',
+    'nav.trip':'Заезд','nav.rooms':'Номера','nav.program':'Программа',
+    'nav.checkup':'Чекап','nav.team':'Команда','nav.cta':'Оставить заявку',
+    'mob.trip':'Как проходит заезд','mob.rooms':'Отель и номера',
+    'mob.program':'Программа отдыха','mob.checkup':'Чекап в A-clinic',
+    'mob.faq':'Частые вопросы',
+    'hero.new':'Новый',
+    'hero.kicker':'Семейные заезды в горах Грузии · май и июнь 2026',
+    'hero.w1':'Семейный','hero.w2':'выезд','hero.w3':'в','hero.w4':'горы',
+    'hero.sub':'Кантри-стайл отель на краю каньона, в двух часах от Тбилиси. Пять дней движения, восстановления и настоящего семейного времени — с массажами, зарядками, специалистами и горным воздухом.',
+    'hero.book':'Забронировать','hero.viewprogram':'Смотреть программу',
+    'hero.partners':'Пять дней движения, восстановления и семейного времени',
+    'prog.title':'Как пройдёт','prog.title.em':'заезд',
+    'd1.meta':'День 1','d1.tab':'Заезд и первый вечер','d1.title':'Встречаемся в Тбилиси',
+    'd2.meta':'День 2','d2.tab':'Чекап и дорога в горы','d2.title':'Чекап, массаж — и едем в горы',
+    'd3.meta':'День 3','d3.tab':'Тело и движение','d3.title':'Тело и движение — день с мануальным терапевтом',
+    'd4.meta':'День 4','d4.tab':'Восстановление','d4.title':'Восстановление и присутствие — день с телесным терапевтом',
+    'd5.meta':'День 5','d5.tab':'Возвращение','d5.title':'Возвращаемся в Тбилиси',
+    'dates.title':'Выбери','dates.title.em':'дату для семейного отдыха',
+    'geo.title':'Почему именно',
+    'dacha.desc':'Кантри-стайл отель в горах Грузии — деревенский дух, все удобства и терраса прямо над каньоном. В двух часах от Тбилиси, максимум 20 человек — дети и взрослые. Своё, камерное, без посторонних.',
+    'dacha.why':'Почему здесь удобно семьям',
+    'rooms.title':'Выберите','rooms.title.em':'свой номер','rooms.choose':'Выбрать номер →',
+    'checkup.title':'Чекап в','checkup.desc':'Дополнительная опция — 180 $ / чел. Врачи говорят по-русски и по-английски. За доказательную медицину, ничего лишнего не навязывают. Базовый пакет можно расширить после онлайн-консультации. Есть педиатры — детям тоже можно.',
+    'checkup.site':'Сайт клиники →','checkup.included':'Что входит',
+    'checkup.how':'Как это работает','checkup.why':'Почему это удобно',
+    'layers.title':'Пять дней — три','layers.title.em':'направления',
+    'included.title':'Что входит в','included.title.em':'программу',
+    'included.desc':'Семейный заезд — это не тур «à la carte». Большую часть мы организовываем под ключ, чтобы вы просто приехали и отдыхали.',
+    'included.in':'Что входит','included.extra':'Дополнительные опции',
+    'team.title':'Кто едет','team.title.em':'с нами',
+    'org.badge':'Организатор заезда','org.role':'Массажист · Велнес-инструктор · Тренер',
+    'org.bio1':'Анастасия — массажист и велнес-специалист с опытом в образовании, коммуникации и клиентском сервисе. Она придумала и организует этот заезд, чтобы каждый участник смог по-настоящему восстановить силы в горах Грузии.',
+    'org.bio2':'Проводит практики по расслаблению, работе с телесным напряжением и стрессом. Создаёт безопасную и поддерживающую атмосферу — для взрослых и детей.',
+    'faq.title':'Частые','faq.title.em':'вопросы','faq.ask':'Задать вопрос →',
+    'how.title':'Четыре шага до','how.title.em':'выезда',
+    'how.desc':'Всё просто. Оставляете контакт — мы берём на себя логистику и организацию.',
+    'how.s1':'Оставляете заявку','how.s2':'Получаете детали','how.s3':'Фиксируете участие','how.s4':'Встречаемся в выбранные даты',
+    'form.title':'Забронировать место','form.name':'Имя','form.contact':'Telegram или Email',
+    'form.group':'Состав','form.format':'Что важно сейчас','form.dates':'Даты',
+    'form.room':'Какой номер интересует','form.massage':'Массаж для взрослых и детей',
+    'form.comment':'Комментарий','form.submit':'Отправить заявку →',
+    'form.status':'Напишем лично и пришлём все детали по стоимости и логистике.',
+    'footer.sub':'Alto Retreat · Семейный тур',
+    'footer.desc':'Семейные заезды для семей с детьми и близких компаний. Горы Грузии, Edis Dacha, правильный баланс активностей и отдыха.',
+    'footer.nav':'Навигация','footer.about':'О поездке','footer.contacts':'Контакты',
+    'footer.impact':'Что входит в программу',
+  },
+  en: {
+    skip:'Skip to content',
+    'nav.sub':'Family Tours · 2026',
+    'nav.trip':'Schedule','nav.rooms':'Rooms','nav.program':'Program',
+    'nav.checkup':'Check-up','nav.team':'Team','nav.cta':'Book Now',
+    'mob.trip':'How the retreat works','mob.rooms':'Hotel & Rooms',
+    'mob.program':'Activities','mob.checkup':'Check-up at A-clinic',
+    'mob.faq':'FAQ',
+    'hero.new':'New',
+    'hero.kicker':'Family retreats in the mountains of Georgia · May & June 2026',
+    'hero.w1':'Family','hero.w2':'retreat','hero.w3':'in','hero.w4':'the mountains',
+    'hero.sub':'A country-style hotel on the edge of a canyon, two hours from Tbilisi. Five days of movement, recovery and real family time — with massages, morning workouts, specialists and mountain air.',
+    'hero.book':'Book Now','hero.viewprogram':'View Program',
+    'hero.partners':'Five days of movement, recovery and family time',
+    'prog.title':'How the','prog.title.em':'retreat goes',
+    'd1.meta':'Day 1','d1.tab':'Arrival & First Evening','d1.title':'Arriving in Tbilisi',
+    'd2.meta':'Day 2','d2.tab':'Check-up & Drive to the Mountains','d2.title':'Check-up, massage — and off to the mountains',
+    'd3.meta':'Day 3','d3.tab':'Body & Movement','d3.title':'Body & Movement — day with the manual therapist',
+    'd4.meta':'Day 4','d4.tab':'Recovery','d4.title':'Recovery & Presence — day with the body therapist',
+    'd5.meta':'Day 5','d5.tab':'Return','d5.title':'Returning to Tbilisi',
+    'dates.title':'Choose','dates.title.em':'your family getaway date',
+    'geo.title':'Why Georgia',
+    'dacha.desc':'A country-style hotel in the mountains of Georgia — rural soul, full amenities and a terrace right above the canyon. Two hours from Tbilisi, max 20 people — kids and adults. Intimate and private.',
+    'dacha.why':'Why this is great for families',
+    'rooms.title':'Choose','rooms.title.em':'your room','rooms.choose':'Select room →',
+    'checkup.title':'Check-up at','checkup.desc':'Optional add-on — $180 / person. Doctors speak Russian and English. Evidence-based medicine, nothing unnecessary pushed. Basic package can be expanded after an online consultation. Pediatricians available — children welcome.',
+    'checkup.site':'Clinic website →','checkup.included':"What's included",
+    'checkup.how':'How it works','checkup.why':"Why it's convenient",
+    'layers.title':'Five days —','layers.title.em':'three pillars',
+    'included.title':"What's",'included.title.em':'included',
+    'included.desc':'This family retreat is not an à la carte tour. We organize most of it end-to-end — so you simply arrive and enjoy.',
+    'included.in':"What's included",'included.extra':'Optional add-ons',
+    'team.title':"Who's coming",'team.title.em':'with us',
+    'org.badge':'Retreat Organizer','org.role':'Massage Therapist · Wellness Instructor · Trainer',
+    'org.bio1':'Anastasia is a massage therapist and wellness specialist with a background in education, communication and client service. She conceived and organizes this retreat so every participant can truly recharge in the Georgian mountains.',
+    'org.bio2':'She leads relaxation practices, bodywork and stress-reduction sessions. Creates a safe and supportive atmosphere — for adults and children alike.',
+    'faq.title':'Frequently','faq.title.em':'asked questions','faq.ask':'Ask a question →',
+    'how.title':'Four steps to','how.title.em':'your retreat',
+    'how.desc':"It's simple. Leave your contact — we handle all logistics and organization.",
+    'how.s1':'Submit your inquiry','how.s2':'Receive details','how.s3':'Confirm your place','how.s4':'We meet on the chosen dates',
+    'form.title':'Reserve your spot','form.name':'Name','form.contact':'Telegram or Email',
+    'form.group':'Group','form.format':'What matters most right now','form.dates':'Dates',
+    'form.room':'Which room interests you','form.massage':'Massage for adults and children',
+    'form.comment':'Comment','form.submit':'Send application →',
+    'form.status':"We'll reach out personally with all details on pricing and logistics.",
+    'footer.sub':'Alto Retreat · Family Tour',
+    'footer.desc':'Family retreats for families with children and close-knit groups. Georgian mountains, Edis Dacha, the perfect balance of activities and rest.',
+    'footer.nav':'Navigation','footer.about':'About the trip','footer.contacts':'Contacts',
+    'footer.impact':"What's included in the program",
+  },
+  de: {
+    skip:'Zum Inhalt springen',
+    'nav.sub':'Familientouren · 2026',
+    'nav.trip':'Programm','nav.rooms':'Zimmer','nav.program':'Ablauf',
+    'nav.checkup':'Check-up','nav.team':'Team','nav.cta':'Jetzt buchen',
+    'mob.trip':'Wie der Retreat abläuft','mob.rooms':'Hotel & Zimmer',
+    'mob.program':'Aktivitäten','mob.checkup':'Check-up in der A-Klinik',
+    'mob.faq':'Häufige Fragen',
+    'hero.new':'Neu',
+    'hero.kicker':'Familienretreat in den Bergen Georgiens · Mai & Juni 2026',
+    'hero.w1':'Familien-','hero.w2':'retreat','hero.w3':'in','hero.w4':'den Bergen',
+    'hero.sub':'Ein Landhotel am Rande einer Schlucht, zwei Stunden von Tiflis entfernt. Fünf Tage Bewegung, Erholung und echte Familienzeit — mit Massagen, Morgengymnastik, Spezialisten und Bergluft.',
+    'hero.book':'Jetzt buchen','hero.viewprogram':'Programm ansehen',
+    'hero.partners':'Fünf Tage Bewegung, Erholung und Familienzeit',
+    'prog.title':'So läuft','prog.title.em':'der Retreat ab',
+    'd1.meta':'Tag 1','d1.tab':'Ankunft & erster Abend','d1.title':'Ankunft in Tiflis',
+    'd2.meta':'Tag 2','d2.tab':'Check-up & Fahrt ins Gebirge','d2.title':'Check-up, Massage — und weiter in die Berge',
+    'd3.meta':'Tag 3','d3.tab':'Körper & Bewegung','d3.title':'Körper & Bewegung — Tag mit dem Manualtherapeuten',
+    'd4.meta':'Tag 4','d4.tab':'Erholung','d4.title':'Erholung & Präsenz — Tag mit dem Körpertherapeuten',
+    'd5.meta':'Tag 5','d5.tab':'Rückkehr','d5.title':'Rückkehr nach Tiflis',
+    'dates.title':'Wähle','dates.title.em':'dein Familienabenteuer-Datum',
+    'geo.title':'Warum Georgien',
+    'dacha.desc':'Ein Landhotel in den Bergen Georgiens — ländliches Flair, voller Komfort und eine Terrasse direkt über der Schlucht. Zwei Stunden von Tiflis entfernt, maximal 20 Personen — Kinder und Erwachsene. Intim und ohne Fremde.',
+    'dacha.why':'Warum ideal für Familien',
+    'rooms.title':'Wähle','rooms.title.em':'dein Zimmer','rooms.choose':'Zimmer wählen →',
+    'checkup.title':'Check-up in der','checkup.desc':'Optionales Zusatzangebot — 180 $ / Person. Ärzte sprechen Russisch und Englisch. Evidenzbasierte Medizin, nichts Überflüssiges. Das Basispaket kann nach einer Online-Konsultation erweitert werden. Kinderärzte verfügbar.',
+    'checkup.site':'Klinik-Website →','checkup.included':'Was enthalten ist',
+    'checkup.how':'Wie es funktioniert','checkup.why':'Warum es praktisch ist',
+    'layers.title':'Fünf Tage —','layers.title.em':'drei Schwerpunkte',
+    'included.title':'Was','included.title.em':'enthalten ist',
+    'included.desc':"Dieser Familienretreat ist keine à-la-carte-Tour. Den Großteil organisieren wir komplett — damit ihr einfach ankommt und genießt.",
+    'included.in':'Enthaltene Leistungen','included.extra':'Optionale Zusätze',
+    'team.title':'Wer fährt','team.title.em':'mit uns',
+    'org.badge':'Retreat-Organisatorin','org.role':'Massagetherapeutin · Wellness-Instruktorin · Trainerin',
+    'org.bio1':'Anastasia ist Massagetherapeutin und Wellness-Spezialistin mit Erfahrung in Bildung, Kommunikation und Kundendienst. Sie hat diesen Retreat konzipiert und organisiert ihn, damit jeder Teilnehmer in den georgischen Bergen wirklich neue Kraft schöpfen kann.',
+    'org.bio2':'Sie leitet Entspannungspraktiken, Körperarbeit und Stressabbau-Sitzungen. Sie schafft eine sichere und unterstützende Atmosphäre — für Erwachsene und Kinder gleichermaßen.',
+    'faq.title':'Häufig','faq.title.em':'gestellte Fragen','faq.ask':'Frage stellen →',
+    'how.title':'Vier Schritte zu','how.title.em':'eurem Retreat',
+    'how.desc':'Ganz einfach. Hinterlasst eure Kontaktdaten — wir kümmern uns um Logistik und Organisation.',
+    'how.s1':'Anfrage senden','how.s2':'Details erhalten','how.s3':'Platz bestätigen','how.s4':'Wir treffen uns am gewählten Datum',
+    'form.title':'Platz reservieren','form.name':'Name','form.contact':'Telegram oder E-Mail',
+    'form.group':'Gruppe','form.format':'Was ist gerade wichtig','form.dates':'Termine',
+    'form.room':'Welches Zimmer interessiert euch','form.massage':'Massage für Erwachsene und Kinder',
+    'form.comment':'Kommentar','form.submit':'Anfrage absenden →',
+    'form.status':'Wir melden uns persönlich mit allen Details zu Preisen und Ablauf.',
+    'footer.sub':'Alto Retreat · Familientour',
+    'footer.desc':'Familienretreat für Familien mit Kindern und enge Freundesgruppen. Georgische Berge, Edis Dacha, die richtige Balance aus Aktivitäten und Erholung.',
+    'footer.nav':'Navigation','footer.about':'Über die Reise','footer.contacts':'Kontakte',
+    'footer.impact':'Was im Programm enthalten ist',
+  }
+};
+
+let currentLang = 'en';
+document.addEventListener('DOMContentLoaded', () => setLang('en'));
+
+function setLang(lang) {
+  currentLang = lang;
+  // update button states
+  document.querySelectorAll('.lang-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.lang === lang);
+  });
+  // update all i18n elements
+  const dict = I18N[lang] || I18N.ru;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (dict[key] !== undefined) el.textContent = dict[key];
+  });
+  // update placeholders
+  const placeholders = {
+    ru: { name:'Как к вам обращаться', contact:'@username или email@...', comment:'Возраст детей, пожелания по номеру, вопросы...' },
+    en: { name:'How should we address you', contact:'@username or email@...', comment:"Children's ages, room preferences, questions..." },
+    de: { name:'Wie sollen wir Sie ansprechen', contact:'@nutzername oder email@...', comment:'Alter der Kinder, Zimmerwünsche, Fragen...' }
+  };
+  const ph = placeholders[lang] || placeholders.ru;
+  const nameField = document.getElementById('lead_name');
+  const contactField = document.getElementById('lead_contact');
+  const commentField = document.getElementById('lead_comment');
+  if(nameField) nameField.placeholder = ph.name;
+  if(contactField) contactField.placeholder = ph.contact;
+  if(commentField) commentField.placeholder = ph.comment;
+  // update html lang
+  document.documentElement.lang = lang;
+}
+
+
+/* ── i18n HTML TRANSLATIONS ── */
+const I18N_HTML = {
+  ru: {
+    'hero.row': '<span>22–26 мая</span><span>5–9 июня</span><span>Edis Dacha</span><span>Каньон</span><span>A-clinic</span>',
+    'day1.body': '<div class="day-title" data-i18n="d1.title">Встречаемся в Тбилиси</div><ul class="day-flow"><li>Встречаем все семьи в аэропорту и размещаем в Hilton Tbilisi — первый спокойный вечер после дороги.</li><li>Ужин и прогулка по Тбилиси для тех, кто уже в настроении. Дети знакомятся между собой.</li><li>Никакого форс-мажора с логистикой: трансфер и размещение организуем мы.</li></ul><div class="day-tags"><span class="day-pill">встреча в аэропорту</span><span class="day-pill">Hilton Tbilisi</span><span class="day-pill">первый вечер</span></div>',
+    'day2.body': '<div class="day-title" data-i18n="d2.title">Чекап, массаж — и едем в горы</div><ul class="day-flow"><li>Утро: чекап в A-clinic — взрослые и дети по желанию (в клинике прекрасные педиатры). Параллельно — массажи в студии для тех, кто не на чекапе.</li><li>Дети в это время в парке Ваке с ведущим — прогулка, игры, зарядки. Если дождь — остаёмся в студии: фильмы, активности, своя программа.</li><li>После обеда — общий выезд на локацию. Двухчасовой маршрут с горными видами, которые запомнятся.</li><li>Вечер на базе: заселение, бассейн, первая зарядка с тренером, сауна и барбекю у костра.</li></ul><div class="day-tags"><span class="day-pill">чекап A-clinic</span><span class="day-pill">массажи</span><span class="day-pill">парк Ваке</span><span class="day-pill">выезд на базу</span></div>',
+    'day3.body': '<div class="day-title" data-i18n="d3.title">Тело и движение — день с мануальным терапевтом</div><ul class="day-flow"><li>Утро: зарядка с тренером на краю каньона — взрослые и дети вместе. Потом неторопливый завтрак.</li><li>День: индивидуальные сессии с мануальным терапевтом (врач с высшим медицинским, хирург-педиатр) — осанка, зажимы, диагностика. Работает и со взрослыми, и с детьми.</li><li>Массажи по расписанию — каждый взрослый получает свой слот. Есть опция детского массажа: наши специалисты работают с детьми.</li><li>Вечер: off-road выезд или хайкинг к каньону всей группой. Костёр, гитара, настолки.</li></ul><div class="day-tags"><span class="day-pill">зарядка</span><span class="day-pill">мануальный терапевт</span><span class="day-pill">массажи</span><span class="day-pill">off-road / хайкинг</span></div>',
+    'day4.body': '<div class="day-title" data-i18n="d4.title">Восстановление и присутствие — день с телесным терапевтом</div><ul class="day-flow"><li>Утро: зарядка, купание в бассейне. Завтрак в своём темпе.</li><li>День: практики с телесным терапевтом — групповые и индивидуальные сессии для взрослых и детей. Работа с напряжением, дыханием, контактом с собой и близкими.</li><li>Массажи по расписанию для всех взрослых. Детский массаж — по желанию, есть специалисты, которые работают с детьми.</li><li>После обеда: пикник у реки или свободное время на территории. Дети — с ведущим.</li><li>Вечер: сауна, бассейн, последний костёр. Пространство для разговора без спешки.</li></ul><div class="day-tags"><span class="day-pill">телесный терапевт</span><span class="day-pill">массажи</span><span class="day-pill">пикник</span><span class="day-pill">последний костёр</span></div>',
+    'day5.body': '<div class="day-title" data-i18n="d5.title">Возвращаемся в Тбилиси</div><ul class="day-flow"><li>Неторопливое утро: зарядка, завтрак, последняя прогулка по территории над каньоном.</li><li>Неторопливые сборы — без спешки и суеты.</li><li>Трансфер обратно в Тбилиси. Для тех, у кого вечерний рейс, — дополнительное время в городе.</li></ul><div class="day-tags"><span class="day-pill">зарядка</span><span class="day-pill">прогулка</span><span class="day-pill">трансфер в Тбилиси</span></div>',
+    'dates.grid': '<div class="gc"><div class="gc-h">22–26 мая</div><p class="gc-p">Основной майский заезд с полной программой и всеми активностями.</p><span class="gc-tag">основной заезд</span><a href="#form" class="stay-cta" style="margin-top:16px">Оставить заявку</a></div><div class="gc"><div class="gc-h">5–9 июня</div><p class="gc-p">Июньский заезд для семей, которым удобнее стартовать в начале лета.</p><span class="gc-tag">начало лета</span><a href="#form" class="stay-cta" style="margin-top:16px">Оставить заявку</a></div><div class="gc"><div class="gc-h">Июль</div><p class="gc-p">Открыта предзапись. Оставьте заявку, чтобы узнать даты первыми.</p><span class="gc-tag">предзапись</span><a href="#form" class="stay-cta" style="margin-top:16px">Оставить заявку</a></div><div class="gc"><div class="gc-h">Август</div><p class="gc-p">Предзапись на летние даты для тех, кто планирует отпуск заранее.</p><span class="gc-tag">предзапись</span><a href="#form" class="stay-cta" style="margin-top:16px">Оставить заявку</a></div>',
+    'geo.grid': '<div class="gc"><div class="gc-h">Природа</div><p class="gc-p">Горный воздух, каньоны, реки. Место, где дети видят мир без экрана, а взрослые наконец перестают думать о рабочей почте.</p><span class="gc-tag">горный воздух и тишина</span></div><div class="gc"><div class="gc-h">Логистика</div><p class="gc-p">2 часа от Тбилиси. Прямые рейсы из Москвы, Минска, Алматы, Дубая. Нет языкового барьера для русскоязычного сообщества.</p><span class="gc-tag">удобный маршрут</span></div><div class="gc"><div class="gc-h">Атмосфера</div><p class="gc-p">Кухня, гостеприимство, безопасность. Для семей с детьми это именно тот уровень комфорта, который позволяет по-настоящему расслабиться.</p><span class="gc-tag">семейный сервис</span></div>',
+    'dacha.pills': '<span class="dacha-pill">На краю каньона</span><span class="dacha-pill">Дом 1936 года</span><span class="dacha-pill">Бассейн</span><span class="dacha-pill">Сауна</span><span class="dacha-pill">Барбекю-зона</span><span class="dacha-pill">Терраса с видом</span><span class="dacha-pill">Горный воздух</span><span class="dacha-pill">Подходит для детей</span>',
+    'dacha.stats': '<div class="dacha-stat"><div class="dacha-stat-val">Камерная поездка</div><div class="dacha-stat-lbl">16–20 человек: дети и взрослые, без ощущения лагеря на большую толпу.</div></div><div class="dacha-stat"><div class="dacha-stat-val">Дети под присмотром</div><div class="dacha-stat-lbl">Ведущий-вожатый и команда, которая умеет работать с детьми и правда любит это делать.</div></div><div class="dacha-stat"><div class="dacha-stat-val">Взрослые тоже отдыхают</div><div class="dacha-stat-lbl">Пока дети заняты, у родителей есть время на массажи, специалистов, сауну и просто выдохнуть.</div></div><div class="dacha-stat"><div class="dacha-stat-val">Все продумано под ключ</div><div class="dacha-stat-lbl">Проживание, питание, программа и ритм поездки собраны так, чтобы вам не пришлось ничего организовывать на месте.</div></div>',
+    'room1.list': '<li>Отдельное здание с лучшим видом на горы.</li><li>Собственная ванная комната в каждом номере.</li><li>Два номера рядом удобно брать двум семьям, которые едут вместе.</li>',
+    'room2.list': '<li>Подходит для семьи с одним или двумя детьми.</li><li>Двухъярусная планировка: большая кровать для родителей и отдельные спальные места для детей.</li><li>Отдельный санузел и собственный балкон.</li><li>Если нужен 4-й гость, доплата составит 1 023 $ только за программу.</li>',
+    'room3.list': '<li>Две отдельные кровати.</li><li>Отличный номер для одного взрослого и ребёнка или для взрослых детей.</li><li>Полноценный санузел и балкон с видом.</li>',
+    'room4.list': '<li>Большая двуспальная кровать для родителей.</li><li>На этом же этаже рядом есть HOUSE 1936 Twin, где можно разместить детей.</li><li>Санузел и балкон в комплекте.</li>',
+    'room5.list': '<li>Номер в новом здании рядом с основными активностями.</li><li>Две отдельные кровати.</li><li>Подойдёт для детей или для родителей.</li><li>Можно взять 2 номера Standard Twin, и вся семья будет рядом.</li>',
+    'checkup.list': '<li>2 консультации терапевта по 30 минут: первая до приезда онлайн, вторая по итогам.</li><li>Клинический анализ крови: CBC + WBC differential + ESR.</li><li>Липидный профиль: total cholesterol, HDL, LDL, triglycerides.</li><li>Гликированный гемоглобин: HbA1c.</li>',
+    'checkup.list3': '<li>Видит скрытую анемию, воспалительные изменения и сердечно-сосудистые риски.</li><li>Педиатры в клинике — детям тоже можно пройти обследование.</li><li>Врачи говорят по-русски и по-английски, за доказательную медицину.</li><li>Ничего лишнего не навязывают — но при необходимости помогут расширить пакет.</li>',
+    'prog1.block': '<div class="pg-tag">Движение</div><div class="pg-h">Тело в ритме</div><p class="pg-p">Каждое утро начинается с зарядки у каньона. Тренер выстраивает нагрузку под состояние — не армейский режим, а живое движение для взрослых и детей вместе.</p><ul class="pg-ul"><li>Ежедневная утренняя зарядка с тренером</li><li>Хайкинг по горным маршрутам</li><li>Бассейн и время у воды</li><li>Off-road по желанию — отдельная опция</li></ul><div class="pg-pills"><span class="ppill">Тренер</span><span class="ppill">Зарядка</span><span class="ppill">Хайкинг</span><span class="ppill">Бассейн</span></div>',
+    'prog2.block': '<div class="pg-tag">Здоровье</div><div class="pg-h">Тело и специалисты</div><p class="pg-p">Два специалиста с медицинским образованием работают с каждым участником — взрослым и ребёнком. Мануальный терапевт — осанка и зажимы. Телесный терапевт — напряжение и контакт с собой.</p><ul class="pg-ul"><li>Мануальный терапевт — диагностика и работа с осанкой</li><li>Телесный терапевт — практики для всей семьи</li><li>3 массажа для каждого взрослого</li><li>Практики и сессии встроены в общую программу</li></ul><div class="pg-pills"><span class="ppill">Мануальный терапевт</span><span class="ppill">Телесный терапевт</span><span class="ppill">Массаж</span><span class="ppill">Дети</span></div>',
+    'prog3.block': '<div class="pg-tag">Отдых</div><div class="pg-h">Вместе и каждый по-своему</div><p class="pg-p">Ведущий, который умеет работать с детьми, освобождает родителям время. Вечера — общие: костёр, ужины, разговоры без спешки. Дети дружат, взрослые выдыхают.</p><ul class="pg-ul"><li>Ведущий-вожатый для детей каждый день</li><li>Общие ужины и барбекю у костра</li><li>Сауна и вечерний бассейн</li><li>Пикники и выезды в горы</li></ul><div class="pg-pills"><span class="ppill">Ведущий</span><span class="ppill">Костёр</span><span class="ppill">Сауна</span><span class="ppill">Пикник</span></div>',
+    'incl.list1': '<li>Трансферы по маршруту Тбилиси — Edis Dacha — Тбилиси и все выезды по программе.</li><li>Питание на протяжении всей поездки: завтраки, обеды, ужины и барбекю по сценарию.</li><li>Программа по дням: зарядки, хайкинг, пикники, вечерние активности.</li><li>3 массажа для каждого взрослого на локации.</li><li>Сессии с мануальным и телесным терапевтом для взрослых и детей.</li><li>Сауна, бассейн и доступ ко всем общим пространствам отеля.</li><li>Ведущий-вожатый для детей каждый день — включая время взрослых сессий.</li><li>Организационная часть: мы берём на себя логистику.</li>',
+    'incl.list2': '<li>Чекап в A-clinic — 180 $ / человек. Взрослые и дети. Можно расширить после онлайн-консультации с врачом.</li><li>Off-road тур — 130 $ / человек. По желанию, не обязательно.</li><li>Трансфер от аэропорта до Тбилиси и из Тбилиси в аэропорт не включён, но мы можем помочь с информацией или заказать трансфер.</li><li>Перелёт до Тбилиси и личные расходы в городе — самостоятельно.</li><li>Медицинская страховка на период поездки — самостоятельно.</li>',
+    'org.tags': '<span class="organizer-tag">Массаж и телесные практики</span><span class="organizer-tag">Расслабление и восстановление</span><span class="organizer-tag">Групповая фасилитация</span><span class="organizer-tag">Работа с детьми и взрослыми</span><span class="organizer-tag">Английский язык</span>',
+    'faq.list': '<div class="fi open"><div class="fq" role="button" tabindex="0" aria-expanded="true" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Кто может поехать?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Семейный заезд: пары с детьми, семьи с подростками, друзья семьями. Можно ехать и без детей — программа комфортна для всех.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">С какого возраста можно брать детей?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Берите с любого возраста. Для детей до 12 лет уточните условия при подаче заявки.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Что с детьми во время массажей?<span class="farr" aria-hidden="true">+</span></div><div class="fa">На время взрослых активностей с детьми будет аниматор. Безопасно и весело.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Где это и как добираться?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Edis Dacha — кантри-стайл отель на краю каньона, в двух часах от Тбилиси. Трансфер от аэропорта до Тбилиси и обратно не включён, но мы подскажем удобный вариант или поможем его заказать.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Есть ли бассейн и сауна?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Да. Бассейн и сауна встроены в программу — никаких доплат. Также барбекю-зона и общие пространства.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Что такое off-road и обязательно ли участвовать?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Off-road — это выезд по горным дорогам, каждый может попробовать себя за рулём. Это дополнительная опция за 130 $ — по желанию, не обязательно.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Как оставить заявку?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Заполните форму ниже. Максимум группа — 20 человек, включая детей и взрослых, поэтому лучше не откладывать.</div></div>',
+    'form.group.opts': '<option value="">Выберите...</option><option>Едем вдвоём (пара)</option><option>1 родитель с детьми</option><option>Семья с 1 ребёнком</option><option>Семья с 2+ детьми</option><option>Две семьи вместе</option><option>Компания друзей (без детей)</option>',
+    'form.format.opts': '<option value="">Выберите...</option><option>Хочу поехать в один из ближайших заездов</option><option>Хочу сначала понять стоимость</option><option>Нужна логистика и бытовые детали</option><option>Интересно, если будет следующий заезд</option><option>Хочу просто задать вопрос</option>',
+    'form.dates.opts': '<option>22–26 мая</option><option>5–9 июня</option><option>Предзапись на июль</option><option>Предзапись на август</option>',
+    'form.room.opts': '<option value="">Выберите...</option><option>Panorama — 3 300 $ за номер / 1 650 $ с человека</option><option>HOUSE 1936 Double King — 4 080 $ за номер / 1 360 $ с человека</option><option>HOUSE 1936 Twin — 2 840 $ за номер / 1 420 $ с человека</option><option>HOUSE 1936 King — 2 840 $ за номер / 1 420 $ с человека</option><option>Standard Twin — 2 760 $ за номер / 1 380 $ с человека</option><option>Ещё не определился(лась)</option>',
+    'form.massage.opts': '<option value="">Выберите...</option><option>Нужен массаж для взрослых</option><option>Нужен массаж для взрослых и детей</option><option>Массаж не нужен</option><option>Обсудим на консультации</option>',
+  },
+  en: {
+    'hero.row': '<span>May 22–26</span><span>June 5–9</span><span>Edis Dacha</span><span>Canyon</span><span>A-clinic</span>',
+    'day1.body': '<div class="day-title">Arriving in Tbilisi</div><ul class="day-flow"><li>We meet all families at the airport and check them into Hilton Tbilisi — a calm first evening after travel.</li><li>Dinner and a walk around Tbilisi for those in the mood. Kids get to know each other.</li><li>No logistics stress: transfers and check-in are fully handled by us.</li></ul><div class="day-tags"><span class="day-pill">airport pickup</span><span class="day-pill">Hilton Tbilisi</span><span class="day-pill">first evening</span></div>',
+    'day2.body': '<div class="day-title">Check-up, massage — and off to the mountains</div><ul class="day-flow"><li>Morning: check-up at A-clinic — optional for adults and children (excellent pediatricians on staff). Simultaneously — massages at the studio for those not at the clinic.</li><li>Kids meanwhile at Vake Park with the host — walks, games, activities. If it rains — we stay at the studio: movies, games, own program.</li><li>After lunch — group drive to the retreat location. A two-hour route with mountain views you\'ll remember.</li><li>Evening at the base: check-in, pool, first workout with the trainer, sauna and BBQ by the fire.</li></ul><div class="day-tags"><span class="day-pill">A-clinic check-up</span><span class="day-pill">massages</span><span class="day-pill">Vake Park</span><span class="day-pill">drive to base</span></div>',
+    'day3.body': '<div class="day-title">Body & Movement — day with the manual therapist</div><ul class="day-flow"><li>Morning: workout with trainer on the canyon edge — adults and kids together. Then a relaxed breakfast.</li><li>Day: individual sessions with the manual therapist (MD, pediatric surgeon) — posture, tension, diagnostics. Works with both adults and children.</li><li>Massages on schedule — every adult gets their slot. Children\'s massage available too; our specialists work with kids.</li><li>Evening: off-road drive or canyon hike with the whole group. Bonfire, guitar, board games.</li></ul><div class="day-tags"><span class="day-pill">workout</span><span class="day-pill">manual therapist</span><span class="day-pill">massages</span><span class="day-pill">off-road / hiking</span></div>',
+    'day4.body': '<div class="day-title">Recovery & Presence — day with the body therapist</div><ul class="day-flow"><li>Morning: workout, swim in the pool. Breakfast at your own pace.</li><li>Day: practices with the body therapist — group and individual sessions for adults and children. Work with tension, breathing, connection with self and loved ones.</li><li>Massages for all adults. Children\'s massage available on request.</li><li>Afternoon: picnic by the river or free time on the grounds. Kids with the host.</li><li>Evening: sauna, pool, last bonfire. Space for unhurried conversation.</li></ul><div class="day-tags"><span class="day-pill">body therapist</span><span class="day-pill">massages</span><span class="day-pill">picnic</span><span class="day-pill">last bonfire</span></div>',
+    'day5.body': '<div class="day-title">Returning to Tbilisi</div><ul class="day-flow"><li>Easy morning: workout, breakfast, one last walk above the canyon.</li><li>Relaxed packing — no rush.</li><li>Transfer back to Tbilisi. For those with evening flights — extra time in the city.</li></ul><div class="day-tags"><span class="day-pill">workout</span><span class="day-pill">walk</span><span class="day-pill">transfer to Tbilisi</span></div>',
+    'dates.grid': '<div class="gc"><div class="gc-h">May 22–26</div><p class="gc-p">The main May retreat with the full program and all activities.</p><span class="gc-tag">main retreat</span><a href="#form" class="stay-cta" style="margin-top:16px">Book Now</a></div><div class="gc"><div class="gc-h">June 5–9</div><p class="gc-p">The June retreat for families who prefer to start their summer a little later.</p><span class="gc-tag">early summer</span><a href="#form" class="stay-cta" style="margin-top:16px">Book Now</a></div><div class="gc"><div class="gc-h">July</div><p class="gc-p">Pre-registration open. Submit your inquiry to be the first to know the dates.</p><span class="gc-tag">pre-registration</span><a href="#form" class="stay-cta" style="margin-top:16px">Book Now</a></div><div class="gc"><div class="gc-h">August</div><p class="gc-p">Pre-registration for summer dates — for those planning their holiday in advance.</p><span class="gc-tag">pre-registration</span><a href="#form" class="stay-cta" style="margin-top:16px">Book Now</a></div>',
+    'geo.grid': '<div class="gc"><div class="gc-h">Nature</div><p class="gc-p">Mountain air, canyons, rivers. A place where kids see the world without screens and adults finally stop thinking about work email.</p><span class="gc-tag">mountain air & silence</span></div><div class="gc"><div class="gc-h">Logistics</div><p class="gc-p">2 hours from Tbilisi. Direct flights from Moscow, Minsk, Almaty, Dubai. No language barriers for Russian-speaking communities.</p><span class="gc-tag">convenient route</span></div><div class="gc"><div class="gc-h">Atmosphere</div><p class="gc-p">Cuisine, hospitality, safety. For families with children, this is exactly the level of comfort that lets you truly relax.</p><span class="gc-tag">family-friendly service</span></div>',
+    'dacha.pills': '<span class="dacha-pill">Canyon edge</span><span class="dacha-pill">1936 house</span><span class="dacha-pill">Pool</span><span class="dacha-pill">Sauna</span><span class="dacha-pill">BBQ area</span><span class="dacha-pill">View terrace</span><span class="dacha-pill">Mountain air</span><span class="dacha-pill">Kid-friendly</span>',
+    'dacha.stats': '<div class="dacha-stat"><div class="dacha-stat-val">Intimate group</div><div class="dacha-stat-lbl">16–20 people: kids and adults, without the feeling of a large summer camp.</div></div><div class="dacha-stat"><div class="dacha-stat-val">Kids supervised</div><div class="dacha-stat-lbl">A host-counselor and a team that knows how to work with children and genuinely loves doing it.</div></div><div class="dacha-stat"><div class="dacha-stat-val">Adults relax too</div><div class="dacha-stat-lbl">While kids are busy, parents have time for massages, specialists, the sauna, and just breathing.</div></div><div class="dacha-stat"><div class="dacha-stat-val">Everything planned</div><div class="dacha-stat-lbl">Accommodation, meals, program and trip rhythm are designed so you don\'t have to organize anything on the ground.</div></div>',
+    'room1.list': '<li>Separate building with the best mountain views.</li><li>Private bathroom in each room.</li><li>Two adjacent rooms — ideal for two families travelling together.</li>',
+    'room2.list': '<li>Suitable for a family with one or two children.</li><li>Split-level layout: large bed for parents and separate sleeping areas for children.</li><li>Private bathroom and its own balcony.</li><li>If a 4th guest is needed, the surcharge is $1,023 for the program only.</li>',
+    'room3.list': '<li>Two separate beds.</li><li>Great room for one adult and a child or for older children.</li><li>Full bathroom and view balcony.</li>',
+    'room4.list': '<li>Large king bed for parents.</li><li>HOUSE 1936 Twin is on the same floor for the kids.</li><li>Bathroom and balcony included.</li>',
+    'room5.list': '<li>Room in the new building close to all main activities.</li><li>Two separate beds.</li><li>Works for kids or parents.</li><li>Take 2 Standard Twin rooms and the whole family stays together.</li>',
+    'checkup.list': '<li>2 therapist consultations, 30 min each: first online before arrival, second after results.</li><li>Complete blood count: CBC + WBC differential + ESR.</li><li>Lipid panel: total cholesterol, HDL, LDL, triglycerides.</li><li>Glycated haemoglobin: HbA1c.</li>',
+    'checkup.list3': '<li>Detects hidden anaemia, inflammatory changes and cardiovascular risks.</li><li>Pediatricians available — children can be examined too.</li><li>Doctors speak Russian and English; evidence-based medicine only.</li><li>Nothing unnecessary is pushed — but they\'ll help expand the package if needed.</li>',
+    'prog1.block': '<div class="pg-tag">Movement</div><div class="pg-h">Body in rhythm</div><p class="pg-p">Every morning starts with a workout at the canyon edge. The trainer adjusts intensity to each person — not a military routine, but lively movement for adults and kids together.</p><ul class="pg-ul"><li>Daily morning workout with trainer</li><li>Hiking on mountain trails</li><li>Pool and time by the water</li><li>Off-road option — separate add-on</li></ul><div class="pg-pills"><span class="ppill">Trainer</span><span class="ppill">Workout</span><span class="ppill">Hiking</span><span class="ppill">Pool</span></div>',
+    'prog2.block': '<div class="pg-tag">Health</div><div class="pg-h">Body & specialists</div><p class="pg-p">Two medically trained specialists work with every participant — adult and child. Manual therapist for posture and tension. Body therapist for stress and self-connection.</p><ul class="pg-ul"><li>Manual therapist — diagnostics and posture work</li><li>Body therapist — practices for the whole family</li><li>3 massages per adult</li><li>Practices and sessions woven into the daily program</li></ul><div class="pg-pills"><span class="ppill">Manual therapist</span><span class="ppill">Body therapist</span><span class="ppill">Massage</span><span class="ppill">Children</span></div>',
+    'prog3.block': '<div class="pg-tag">Rest</div><div class="pg-h">Together & apart</div><p class="pg-p">A host who knows how to work with children frees up parents\' time. Evenings are shared: bonfire, dinners, conversations without rushing. Kids make friends, adults breathe again.</p><ul class="pg-ul"><li>Host-counselor for children every day</li><li>Shared dinners and BBQ by the fire</li><li>Sauna and evening pool</li><li>Picnics and mountain excursions</li></ul><div class="pg-pills"><span class="ppill">Host</span><span class="ppill">Bonfire</span><span class="ppill">Sauna</span><span class="ppill">Picnic</span></div>',
+    'incl.list1': '<li>Transfers on the Tbilisi – Edis Dacha – Tbilisi route and all program excursions.</li><li>All meals throughout the trip: breakfasts, lunches, dinners and scripted BBQs.</li><li>Daily program: workouts, hiking, picnics, evening activities.</li><li>3 massages per adult on location.</li><li>Sessions with the manual and body therapist for adults and children.</li><li>Sauna, pool and access to all common hotel spaces.</li><li>Host-counselor for children every day — including adult session times.</li><li>Full logistics handled by us.</li>',
+    'incl.list2': '<li>Check-up at A-clinic — $180 / person. Adults and children. Can be expanded after online consultation with a doctor.</li><li>Off-road tour — $130 / person. Optional, not required.</li><li>Transfers from/to the airport are not included, but we can advise or arrange them.</li><li>Flights to Tbilisi and personal city expenses — independent.</li><li>Medical insurance for the trip period — independent.</li>',
+    'org.tags': '<span class="organizer-tag">Massage & bodywork</span><span class="organizer-tag">Relaxation & recovery</span><span class="organizer-tag">Group facilitation</span><span class="organizer-tag">Working with adults & children</span><span class="organizer-tag">English language</span>',
+    'faq.list': '<div class="fi open"><div class="fq" role="button" tabindex="0" aria-expanded="true" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Who can join?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Family retreat: couples with kids, families with teens, groups of friends as families. You can also come without children — the program works for everyone.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">From what age can children join?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Any age. For children under 12, please clarify the terms when submitting your inquiry.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">What happens with kids during massages?<span class="farr" aria-hidden="true">+</span></div><div class="fa">During adult sessions, children are with the host. Safe and fun.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Where is it and how do I get there?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Edis Dacha is a country-style hotel on the canyon edge, 2 hours from Tbilisi. Airport–Tbilisi transfers are not included, but we can advise or arrange a convenient option.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Is there a pool and sauna?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Yes. Pool and sauna are part of the program — no extra charge. BBQ area and shared spaces also included.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">What is off-road and is it mandatory?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Off-road is a mountain road drive where everyone can try driving. It\'s an optional add-on for $130 — not required.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">How do I apply?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Fill in the form below. Max group size is 20 people including children and adults, so don\'t delay.</div></div>',
+    'form.group.opts': '<option value="">Select...</option><option>Two of us (couple)</option><option>1 parent with children</option><option>Family with 1 child</option><option>Family with 2+ children</option><option>Two families together</option><option>Group of friends (no children)</option>',
+    'form.format.opts': '<option value="">Select...</option><option>Want to join one of the upcoming retreats</option><option>Want to understand pricing first</option><option>Need logistics and practical details</option><option>Interested if there\'s a next retreat</option><option>Just want to ask a question</option>',
+    'form.dates.opts': '<option>May 22–26</option><option>June 5–9</option><option>Pre-registration for July</option><option>Pre-registration for August</option>',
+    'form.room.opts': '<option value="">Select...</option><option>Panorama — $3,300 per room / $1,650 per person</option><option>HOUSE 1936 Double King — $4,080 per room / $1,360 per person</option><option>HOUSE 1936 Twin — $2,840 per room / $1,420 per person</option><option>HOUSE 1936 King — $2,840 per room / $1,420 per person</option><option>Standard Twin — $2,760 per room / $1,380 per person</option><option>Not decided yet</option>',
+    'form.massage.opts': '<option value="">Select...</option><option>Massage for adults needed</option><option>Massage for adults and children needed</option><option>No massage needed</option><option>Will discuss during consultation</option>',
+  },
+  de: {
+    'hero.row': '<span>22.–26. Mai</span><span>5.–9. Juni</span><span>Edis Dacha</span><span>Canyon</span><span>A-Klinik</span>',
+    'day1.body': '<div class="day-title">Ankunft in Tiflis</div><ul class="day-flow"><li>Wir holen alle Familien am Flughafen ab und bringen sie ins Hilton Tbilisi — ein ruhiger erster Abend nach der Reise.</li><li>Abendessen und Spaziergang durch Tiflis für alle, die in Stimmung sind. Die Kinder lernen sich kennen.</li><li>Kein Logistik-Stress: Transfers und Check-in werden vollständig von uns organisiert.</li></ul><div class="day-tags"><span class="day-pill">Flughafen-Transfer</span><span class="day-pill">Hilton Tbilisi</span><span class="day-pill">erster Abend</span></div>',
+    'day2.body': '<div class="day-title">Check-up, Massage — und weiter in die Berge</div><ul class="day-flow"><li>Morgen: Check-up in der A-Klinik — optional für Erwachsene und Kinder (exzellente Kinderärzte vor Ort). Gleichzeitig Massagen im Studio für alle, die nicht beim Check-up sind.</li><li>Kinder inzwischen im Vake-Park mit dem Betreuer — Spaziergänge, Spiele, Aktivitäten. Bei Regen bleiben wir im Studio: Filme, Beschäftigung, eigenes Programm.</li><li>Nach dem Mittagessen — gemeinsame Fahrt zur Retreat-Location. Eine zweistündige Route mit unvergesslichen Bergpanoramen.</li><li>Abend an der Basis: Einzug, Pool, erstes Training mit dem Trainer, Sauna und Grillabend am Lagerfeuer.</li></ul><div class="day-tags"><span class="day-pill">A-Klinik Check-up</span><span class="day-pill">Massagen</span><span class="day-pill">Vake-Park</span><span class="day-pill">Fahrt zur Basis</span></div>',
+    'day3.body': '<div class="day-title">Körper & Bewegung — Tag mit dem Manualtherapeuten</div><ul class="day-flow"><li>Morgen: Training mit dem Trainer am Canyonrand — Erwachsene und Kinder gemeinsam. Danach entspanntes Frühstück.</li><li>Tag: Einzelsitzungen mit dem Manualtherapeuten (Arzt mit Hochschulabschluss, Kinderchirurg) — Haltung, Verspannungen, Diagnostik. Arbeitet mit Erwachsenen und Kindern.</li><li>Massagen nach Zeitplan — jeder Erwachsene bekommt seinen Slot. Kindermassage ebenfalls möglich.</li><li>Abend: Off-road-Fahrt oder Canyon-Wanderung mit der ganzen Gruppe. Lagerfeuer, Gitarre, Brettspiele.</li></ul><div class="day-tags"><span class="day-pill">Training</span><span class="day-pill">Manualtherapeut</span><span class="day-pill">Massagen</span><span class="day-pill">Off-road / Wandern</span></div>',
+    'day4.body': '<div class="day-title">Erholung & Präsenz — Tag mit dem Körpertherapeuten</div><ul class="day-flow"><li>Morgen: Training, Schwimmen im Pool. Frühstück im eigenen Tempo.</li><li>Tag: Praktiken mit dem Körpertherapeuten — Gruppen- und Einzelsitzungen für Erwachsene und Kinder. Arbeit mit Anspannung, Atmung und Verbindung zu sich selbst und anderen.</li><li>Massagen für alle Erwachsenen. Kindermassage auf Wunsch.</li><li>Nachmittag: Picknick am Fluss oder freie Zeit auf dem Gelände. Kinder beim Betreuer.</li><li>Abend: Sauna, Pool, letztes Lagerfeuer. Raum für ungehastete Gespräche.</li></ul><div class="day-tags"><span class="day-pill">Körpertherapeut</span><span class="day-pill">Massagen</span><span class="day-pill">Picknick</span><span class="day-pill">letztes Lagerfeuer</span></div>',
+    'day5.body': '<div class="day-title">Rückkehr nach Tiflis</div><ul class="day-flow"><li>Entspannter Morgen: Training, Frühstück, letzter Spaziergang über dem Canyon.</li><li>Gemütliches Packen — ohne Eile.</li><li>Transfer zurück nach Tiflis. Für alle mit Abendflügen — extra Zeit in der Stadt.</li></ul><div class="day-tags"><span class="day-pill">Training</span><span class="day-pill">Spaziergang</span><span class="day-pill">Transfer nach Tiflis</span></div>',
+    'dates.grid': '<div class="gc"><div class="gc-h">22.–26. Mai</div><p class="gc-p">Der Haupt-Retreat im Mai mit dem vollen Programm und allen Aktivitäten.</p><span class="gc-tag">Haupttermin</span><a href="#form" class="stay-cta" style="margin-top:16px">Jetzt buchen</a></div><div class="gc"><div class="gc-h">5.–9. Juni</div><p class="gc-p">Der Juni-Retreat für Familien, die lieber Anfang Sommer starten.</p><span class="gc-tag">Frühsommer</span><a href="#form" class="stay-cta" style="margin-top:16px">Jetzt buchen</a></div><div class="gc"><div class="gc-h">Juli</div><p class="gc-p">Vorregistrierung offen. Meldet euch an, um die Termine als Erste zu erfahren.</p><span class="gc-tag">Vorregistrierung</span><a href="#form" class="stay-cta" style="margin-top:16px">Jetzt buchen</a></div><div class="gc"><div class="gc-h">August</div><p class="gc-p">Vorregistrierung für Sommerdaten — für alle, die den Urlaub früh planen.</p><span class="gc-tag">Vorregistrierung</span><a href="#form" class="stay-cta" style="margin-top:16px">Jetzt buchen</a></div>',
+    'geo.grid': '<div class="gc"><div class="gc-h">Natur</div><p class="gc-p">Bergluft, Schluchten, Flüsse. Ein Ort, wo Kinder die Welt ohne Bildschirm erleben und Erwachsene endlich aufhören, an Arbeit zu denken.</p><span class="gc-tag">Bergluft & Stille</span></div><div class="gc"><div class="gc-h">Logistik</div><p class="gc-p">2 Stunden von Tiflis. Direktflüge aus Moskau, Minsk, Almaty, Dubai. Kein Sprachbarriere für russischsprachige Communities.</p><span class="gc-tag">bequeme Route</span></div><div class="gc"><div class="gc-h">Atmosphäre</div><p class="gc-p">Küche, Gastfreundschaft, Sicherheit. Für Familien mit Kindern ist das genau die Komfortstufe, die echte Entspannung ermöglicht.</p><span class="gc-tag">familienfreundlicher Service</span></div>',
+    'dacha.pills': '<span class="dacha-pill">Am Canyonrand</span><span class="dacha-pill">Haus von 1936</span><span class="dacha-pill">Pool</span><span class="dacha-pill">Sauna</span><span class="dacha-pill">Grillbereich</span><span class="dacha-pill">Terrasse mit Aussicht</span><span class="dacha-pill">Bergluft</span><span class="dacha-pill">Kinderfreundlich</span>',
+    'dacha.stats': '<div class="dacha-stat"><div class="dacha-stat-val">Kleine Gruppe</div><div class="dacha-stat-lbl">16–20 Personen: Kinder und Erwachsene, ohne das Gefühl eines großen Ferienlagers.</div></div><div class="dacha-stat"><div class="dacha-stat-val">Kinder betreut</div><div class="dacha-stat-lbl">Ein Betreuer und ein Team, das Kinder wirklich liebt und weiß, wie man mit ihnen arbeitet.</div></div><div class="dacha-stat"><div class="dacha-stat-val">Erwachsene erholen sich auch</div><div class="dacha-stat-lbl">Während die Kinder beschäftigt sind, haben Eltern Zeit für Massagen, Spezialisten, Sauna und einfach Durchatmen.</div></div><div class="dacha-stat"><div class="dacha-stat-val">Alles durchdacht</div><div class="dacha-stat-lbl">Unterkunft, Verpflegung, Programm und Reiserhythmus sind so geplant, dass ihr vor Ort nichts organisieren müsst.</div></div>',
+    'room1.list': '<li>Separates Gebäude mit dem besten Bergblick.</li><li>Eigenes Badezimmer in jedem Zimmer.</li><li>Zwei benachbarte Zimmer — ideal für zwei Familien, die gemeinsam reisen.</li>',
+    'room2.list': '<li>Geeignet für eine Familie mit einem oder zwei Kindern.</li><li>Zweistöckige Aufteilung: großes Bett für die Eltern und separate Schlafplätze für die Kinder.</li><li>Eigenes Bad und eigener Balkon.</li><li>Für einen 4. Gast beträgt der Aufpreis 1.023 $ nur für das Programm.</li>',
+    'room3.list': '<li>Zwei separate Betten.</li><li>Ideal für einen Erwachsenen mit Kind oder für ältere Kinder.</li><li>Vollständiges Bad und Balkon mit Aussicht.</li>',
+    'room4.list': '<li>Großes Doppelbett für die Eltern.</li><li>HOUSE 1936 Twin liegt im selben Stockwerk für die Kinder.</li><li>Bad und Balkon inklusive.</li>',
+    'room5.list': '<li>Zimmer im Neubau nahe allen Hauptaktivitäten.</li><li>Zwei separate Betten.</li><li>Geeignet für Kinder oder Eltern.</li><li>Nehmt 2 Standard-Twin-Zimmer und die ganze Familie bleibt zusammen.</li>',
+    'checkup.list': '<li>2 Therapeutengespräche à 30 Min.: erstes online vor Anreise, zweites nach den Ergebnissen.</li><li>Blutbild: CBC + WBC-Differenzial + BSG.</li><li>Lipidprofil: Gesamtcholesterin, HDL, LDL, Triglyzeride.</li><li>Glykiertes Hämoglobin: HbA1c.</li>',
+    'checkup.list3': '<li>Erkennt versteckte Anämie, Entzündungszeichen und kardiovaskuläre Risiken.</li><li>Kinderärzte verfügbar — Kinder können ebenfalls untersucht werden.</li><li>Ärzte sprechen Russisch und Englisch; nur evidenzbasierte Medizin.</li><li>Nichts Überflüssiges wird aufgedrängt — bei Bedarf wird das Paket erweitert.</li>',
+    'prog1.block': '<div class="pg-tag">Bewegung</div><div class="pg-h">Körper im Rhythmus</div><p class="pg-p">Jeder Morgen beginnt mit einem Training am Canyonrand. Der Trainer passt die Belastung an — kein Militärprogramm, sondern lebendige Bewegung für Erwachsene und Kinder gemeinsam.</p><ul class="pg-ul"><li>Tägliches Morgentraining mit Trainer</li><li>Wanderungen auf Bergpfaden</li><li>Pool und Zeit am Wasser</li><li>Off-road auf Wunsch — separates Zusatzangebot</li></ul><div class="pg-pills"><span class="ppill">Trainer</span><span class="ppill">Training</span><span class="ppill">Wandern</span><span class="ppill">Pool</span></div>',
+    'prog2.block': '<div class="pg-tag">Gesundheit</div><div class="pg-h">Körper & Spezialisten</div><p class="pg-p">Zwei medizinisch ausgebildete Spezialisten arbeiten mit jedem Teilnehmer — Erwachsenen und Kindern. Manualtherapeut für Haltung und Verspannungen. Körpertherapeut für Stress und Selbstverbindung.</p><ul class="pg-ul"><li>Manualtherapeut — Diagnostik und Haltungsarbeit</li><li>Körpertherapeut — Praktiken für die ganze Familie</li><li>3 Massagen pro Erwachsenem</li><li>Praktiken und Sitzungen im Tagesprogramm integriert</li></ul><div class="pg-pills"><span class="ppill">Manualtherapeut</span><span class="ppill">Körpertherapeut</span><span class="ppill">Massage</span><span class="ppill">Kinder</span></div>',
+    'prog3.block': '<div class="pg-tag">Erholung</div><div class="pg-h">Gemeinsam & jeder für sich</div><p class="pg-p">Ein Betreuer, der mit Kindern umgehen kann, gibt den Eltern Zeit. Abende sind gemeinsam: Lagerfeuer, Abendessen, Gespräche ohne Eile. Kinder schließen Freundschaften, Erwachsene atmen auf.</p><ul class="pg-ul"><li>Betreuer für Kinder jeden Tag</li><li>Gemeinsame Abendessen und Grillen am Lagerfeuer</li><li>Sauna und Abendpool</li><li>Picknicks und Bergausflüge</li></ul><div class="pg-pills"><span class="ppill">Betreuer</span><span class="ppill">Lagerfeuer</span><span class="ppill">Sauna</span><span class="ppill">Picknick</span></div>',
+    'incl.list1': '<li>Transfers auf der Route Tiflis – Edis Dacha – Tiflis und alle Programmausflüge.</li><li>Alle Mahlzeiten: Frühstück, Mittagessen, Abendessen und Grillabende.</li><li>Tägliches Programm: Training, Wandern, Picknicks, Abendaktivitäten.</li><li>3 Massagen pro Erwachsenem vor Ort.</li><li>Sitzungen mit Manual- und Körpertherapeut für Erwachsene und Kinder.</li><li>Sauna, Pool und Zugang zu allen Gemeinschaftsbereichen des Hotels.</li><li>Betreuer für Kinder jeden Tag — auch während der Erwachsenensitzungen.</li><li>Vollständige Logistik wird von uns übernommen.</li>',
+    'incl.list2': '<li>Check-up in der A-Klinik — 180 $ / Person. Erwachsene und Kinder. Kann nach Online-Konsultation erweitert werden.</li><li>Off-road-Tour — 130 $ / Person. Optional, nicht verpflichtend.</li><li>Transfers vom/zum Flughafen nicht enthalten, wir können aber helfen oder organisieren.</li><li>Flüge nach Tiflis und persönliche Stadtausgaben — eigenständig.</li><li>Reisekrankenversicherung für den Reisezeitraum — eigenständig.</li>',
+    'org.tags': '<span class="organizer-tag">Massage & Körperarbeit</span><span class="organizer-tag">Entspannung & Erholung</span><span class="organizer-tag">Gruppenmoderation</span><span class="organizer-tag">Arbeit mit Erwachsenen & Kindern</span><span class="organizer-tag">Englische Sprache</span>',
+    'faq.list': '<div class="fi open"><div class="fq" role="button" tabindex="0" aria-expanded="true" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Wer kann mitmachen?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Familienretreat: Paare mit Kindern, Familien mit Teenagern, Freundesgruppen mit Familien. Auch ohne Kinder möglich — das Programm ist für alle komfortabel.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Ab welchem Alter können Kinder teilnehmen?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Jedes Alter. Für Kinder unter 12 Jahren bitte die Bedingungen bei der Anmeldung klären.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Was passiert mit den Kindern während der Massagen?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Während der Erwachsenensitzungen sind die Kinder beim Betreuer. Sicher und spaßig.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Wo ist es und wie komme ich hin?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Edis Dacha ist ein Landhotel am Canyonrand, 2 Stunden von Tiflis entfernt. Flughafen-Tiflis-Transfers sind nicht enthalten, wir helfen aber gerne bei der Organisation.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Gibt es Pool und Sauna?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Ja. Pool und Sauna sind im Programm inbegriffen — ohne Aufpreis. Grillbereich und Gemeinschaftsräume ebenfalls.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Was ist Off-road und ist es Pflicht?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Off-road ist eine Bergstraßenfahrt, bei der jeder selbst fahren kann. Ein optionales Zusatzangebot für 130 $ — nicht verpflichtend.</div></div><div class="fi"><div class="fq" role="button" tabindex="0" aria-expanded="false" onclick="tf(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();tf(this)}">Wie melde ich mich an?<span class="farr" aria-hidden="true">+</span></div><div class="fa">Füllt das Formular aus. Maximal 20 Personen inkl. Kinder und Erwachsene — also nicht zu lange warten.</div></div>',
+    'form.group.opts': '<option value="">Auswählen...</option><option>Wir zwei (Paar)</option><option>1 Elternteil mit Kindern</option><option>Familie mit 1 Kind</option><option>Familie mit 2+ Kindern</option><option>Zwei Familien gemeinsam</option><option>Freundesgruppe (ohne Kinder)</option>',
+    'form.format.opts': '<option value="">Auswählen...</option><option>Möchte an einem der nächsten Retreats teilnehmen</option><option>Möchte zuerst die Kosten verstehen</option><option>Brauche Logistik- und praktische Details</option><option>Interessiert, wenn es ein nächstes Retreat gibt</option><option>Möchte einfach eine Frage stellen</option>',
+    'form.dates.opts': '<option>22.–26. Mai</option><option>5.–9. Juni</option><option>Vorregistrierung Juli</option><option>Vorregistrierung August</option>',
+    'form.room.opts': '<option value="">Auswählen...</option><option>Panorama — 3.300 $ pro Zimmer / 1.650 $ pro Person</option><option>HOUSE 1936 Double King — 4.080 $ pro Zimmer / 1.360 $ pro Person</option><option>HOUSE 1936 Twin — 2.840 $ pro Zimmer / 1.420 $ pro Person</option><option>HOUSE 1936 King — 2.840 $ pro Zimmer / 1.420 $ pro Person</option><option>Standard Twin — 2.760 $ pro Zimmer / 1.380 $ pro Person</option><option>Noch nicht entschieden</option>',
+    'form.massage.opts': '<option value="">Auswählen...</option><option>Massage für Erwachsene benötigt</option><option>Massage für Erwachsene und Kinder benötigt</option><option>Keine Massage benötigt</option><option>Besprechen wir bei der Beratung</option>',
+  }
+};
+
+/* ── additional simple i18n keys ── */
+Object.assign(I18N.ru, {
+  'page.title': 'Alto Retreat — Семейный выезд в горы · 2026',
+  'footer.season': 'Edis Dacha Retreat · сезон 2026',
+  'dacha.note': 'Это формат семейного отдыха, где комфортно и детям, и взрослым: камерно, спокойно и с понятной организацией на каждом этапе.',
+  'room1.sub': '2 одинаковых номера · лучшее расположение',
+  'room1.meta': 'До 2 гостей · отдельное здание',
+  'room2.sub': 'семейный номер', 'room2.meta': 'До 4 гостей · семейный формат',
+  'room3.sub': 'twin room', 'room3.meta': 'До 2 гостей · twin beds',
+  'room4.sub': 'king room', 'room4.meta': 'До 2 гостей · king bed',
+  'room5.sub': 'новый дом · twin room', 'room5.meta': 'До 2 гостей · спокойный формат',
+  'room.note': 'В стоимость включено: проживание, питание, 3 массажа, мануальный терапевт и вся программа. Не включены чекап, off-road и трансфер до отеля в Тбилиси (Hilton).',
+  'checkup.price.label': 'Стоимость',
+  'checkup.two': 'два разговора с терапевтом',
+  'checkup.before': 'До поездки: онлайн-консультация, сбор анамнеза, оценка рисков. Здесь же решаете, нужно ли расширить пакет по показаниям.',
+  'checkup.online': '30 минут · онлайн',
+  'checkup.after': 'После анализов: разбор результатов, рекомендации, при необходимости — направление к профильному специалисту.',
+  'checkup.dl2': '30 минут · онлайн или очно',
+  'checkup.sub3': 'встроено в поездку, без стресса',
+  'how.d1': 'Пишете имя, Telegram и пару слов о своей семье или компании.',
+  'how.d2': 'Высылаем стоимость, логистику, бытовые детали и отвечаем на вопросы.',
+  'how.d3': 'Подтверждаем состав, выбираете номер, согласовываем детали для детей.',
+  'how.d4': 'Прилетаете в Тбилиси — и начинается настоящий семейный отдых.',
+  'role.dima': 'Ведущий-вожатый', 'bio.dima': 'Детская программа, дружелюбная атмосфера',
+  'role.nikolai': 'Врач · Мануальный терапевт', 'bio.nikolai': 'Диагностика, причины, а не симптомы',
+  'role.nata': 'Телесный терапевт', 'bio.nata': 'Тело, эмоции, внутреннее состояние',
+  'role.masseur': 'Массажист', 'bio.amalia': 'Медобразование. Лимфодренаж, миофасциальный',
+  'role.anton': 'Массажист · Тренер', 'bio.anton': 'Мягкие техники, глубокое расслабление',
+  'bio.ruslan': 'Индивидуальный подход и доверие',
+  'role.ia': 'Массажист · Пасс. гимнастика', 'bio.ia': 'Мягко, с опорой на состояние в моменте',
+});
+Object.assign(I18N.en, {
+  'page.title': 'Alto Retreat — Family Mountain Escape · 2026',
+  'footer.season': 'Edis Dacha Retreat · season 2026',
+  'dacha.note': 'A family retreat format where both kids and adults are comfortable: intimate, calm and with clear organisation at every step.',
+  'room1.sub': '2 identical rooms · best location',
+  'room1.meta': 'Up to 2 guests · separate building',
+  'room2.sub': 'family room', 'room2.meta': 'Up to 4 guests · family format',
+  'room3.sub': 'twin room', 'room3.meta': 'Up to 2 guests · twin beds',
+  'room4.sub': 'king room', 'room4.meta': 'Up to 2 guests · king bed',
+  'room5.sub': 'new building · twin room', 'room5.meta': 'Up to 2 guests · quiet format',
+  'room.note': "Included: accommodation, meals, 3 massages, manual therapist and the full program. Not included: check-up, off-road and transfer to Tbilisi hotel (Hilton).",
+  'checkup.price.label': 'Price',
+  'checkup.two': 'two conversations with a therapist',
+  'checkup.before': 'Before the trip: online consultation, medical history, risk assessment. Decide here whether to expand the package.',
+  'checkup.online': '30 min · online',
+  'checkup.after': 'After results: result review, recommendations, referral to a specialist if needed.',
+  'checkup.dl2': '30 min · online or in person',
+  'checkup.sub3': 'built into the trip, no extra hassle',
+  'how.d1': 'Share your name, Telegram and a few words about your family or group.',
+  'how.d2': 'We send pricing, logistics, practical details and answer your questions.',
+  'how.d3': 'We confirm the group, you choose your room, we sort out children\'s details.',
+  'how.d4': 'You fly to Tbilisi — and a real family holiday begins.',
+  'role.dima': 'Host-Counselor', 'bio.dima': 'Children\'s program, friendly atmosphere',
+  'role.nikolai': 'Doctor · Manual Therapist', 'bio.nikolai': 'Diagnostics, causes not symptoms',
+  'role.nata': 'Body Therapist', 'bio.nata': 'Body, emotions, inner state',
+  'role.masseur': 'Massage Therapist', 'bio.amalia': 'Medical background. Lymphatic & myofascial',
+  'role.anton': 'Massage Therapist · Trainer', 'bio.anton': 'Soft techniques, deep relaxation',
+  'bio.ruslan': 'Individual approach and trust',
+  'role.ia': 'Massage · Passive Gymnastics', 'bio.ia': 'Gentle, attuned to the moment',
+});
+Object.assign(I18N.de, {
+  'page.title': 'Alto Retreat — Familien-Bergurlaub · 2026',
+  'footer.season': 'Edis Dacha Retreat · Saison 2026',
+  'dacha.note': 'Ein Familienretreat-Format, bei dem sich sowohl Kinder als auch Erwachsene wohlfühlen: intim, ruhig und mit klarer Organisation auf jedem Schritt.',
+  'room1.sub': '2 identische Zimmer · beste Lage',
+  'room1.meta': 'Bis 2 Gäste · separates Gebäude',
+  'room2.sub': 'Familienzimmer', 'room2.meta': 'Bis 4 Gäste · Familienformat',
+  'room3.sub': 'Twin-Zimmer', 'room3.meta': 'Bis 2 Gäste · Twin Beds',
+  'room4.sub': 'King-Zimmer', 'room4.meta': 'Bis 2 Gäste · King Bed',
+  'room5.sub': 'Neubau · Twin-Zimmer', 'room5.meta': 'Bis 2 Gäste · ruhiges Format',
+  'room.note': 'Inbegriffen: Unterkunft, Verpflegung, 3 Massagen, Manualtherapeut und das komplette Programm. Nicht inbegriffen: Check-up, Off-road und Transfer zum Tiflis-Hotel (Hilton).',
+  'checkup.price.label': 'Preis',
+  'checkup.two': 'zwei Gespräche mit einem Therapeuten',
+  'checkup.before': 'Vor der Reise: Online-Konsultation, Anamnese, Risikobewertung. Entscheidet hier, ob das Paket erweitert werden soll.',
+  'checkup.online': '30 Min. · online',
+  'checkup.after': 'Nach den Ergebnissen: Besprechung, Empfehlungen, ggf. Überweisung zum Spezialisten.',
+  'checkup.dl2': '30 Min. · online oder persönlich',
+  'checkup.sub3': 'in die Reise integriert, kein zusätzlicher Aufwand',
+  'how.d1': 'Name, Telegram und ein paar Worte über eure Familie oder Gruppe eingeben.',
+  'how.d2': 'Wir senden Preise, Logistik, praktische Details und beantworten eure Fragen.',
+  'how.d3': 'Wir bestätigen die Gruppe, ihr wählt das Zimmer, wir klären Kinderdetails.',
+  'how.d4': 'Ihr fliegt nach Tiflis — und ein echter Familienurlaub beginnt.',
+  'role.dima': 'Betreuer', 'bio.dima': 'Kinderprogramm, freundliche Atmosphäre',
+  'role.nikolai': 'Arzt · Manualtherapeut', 'bio.nikolai': 'Diagnostik, Ursachen statt Symptome',
+  'role.nata': 'Körpertherapeut', 'bio.nata': 'Körper, Emotionen, innere Verfassung',
+  'role.masseur': 'Massagetherapeut', 'bio.amalia': 'Medizinische Ausbildung. Lymphdrainage & myofaszial',
+  'role.anton': 'Massagetherapeut · Trainer', 'bio.anton': 'Sanfte Techniken, tiefe Entspannung',
+  'bio.ruslan': 'Individueller Ansatz und Vertrauen',
+  'role.ia': 'Massage · Passive Gymnastik', 'bio.ia': 'Sanft, auf den Moment abgestimmt',
+});
+
+function setLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.lang === lang);
+  });
+  const dict = I18N[lang] || I18N.en;
+  const dictH = I18N_HTML[lang] || I18N_HTML.en;
+  // text content
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (dict[key] !== undefined) el.textContent = dict[key];
+  });
+  // html content
+  document.querySelectorAll('[data-i18n-html]').forEach(el => {
+    const key = el.dataset.i18nHtml;
+    if (dictH[key] !== undefined) el.innerHTML = dictH[key];
+  });
+  // placeholders
+  const placeholders = {
+    ru: { name:'Как к вам обращаться', contact:'@username или email@...', comment:'Возраст детей, пожелания по номеру, вопросы...' },
+    en: { name:'How should we address you', contact:'@username or email@...', comment:"Children's ages, room preferences, questions..." },
+    de: { name:'Wie sollen wir Sie ansprechen', contact:'@nutzername oder email@...', comment:'Alter der Kinder, Zimmerwünsche, Fragen...' }
+  };
+  const ph = placeholders[lang] || placeholders.en;
+  const nf = document.getElementById('lead_name');
+  const cf = document.getElementById('lead_contact');
+  const cmf = document.getElementById('lead_comment');
+  if(nf) nf.placeholder = ph.name;
+  if(cf) cf.placeholder = ph.contact;
+  if(cmf) cmf.placeholder = ph.comment;
+  document.documentElement.lang = lang;
+  // page title
+  if(dict['page.title']) document.title = dict['page.title'];
+}
+
+
+</script>
+</body>
+</html>
